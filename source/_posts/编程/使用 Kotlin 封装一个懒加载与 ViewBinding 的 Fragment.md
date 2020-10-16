@@ -130,7 +130,7 @@ class TestFragment : BaseFragment<FragmentTestBinding>(R.layout.fragment_test) {
 
 # ViewAdapter 的处理
 
-那说了这么多，“那个参数” 到底在哪里呢？来了来了，不过我们要先写一个 adapter 才可以
+那说了这么多，「那个参数」 到底在哪里呢？来了来了，不过我们要先写一个 adapter 才可以
 
 ```kotlin
 class ViewPagerAdapter constructor (

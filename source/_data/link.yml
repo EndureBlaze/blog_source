@@ -31,7 +31,7 @@ class:
     8:
       name: 丁丁の店
       link: https://blog.butanediol.me/
-      avatar: https://blog.butanediol.me/medias/avatar.jpg
+      avatar: https://blog.butanediol.me/media/avatar.png
       descr: 丁二的日常在售
     9:
       name: 梧矜的屋
@@ -118,3 +118,8 @@ class:
       link: https://blog.tigerxly.com/
       avatar: https://tigerxlystatic.togotoo.top/wp-content/my_icon.jpg
       descr: 记录学习、生活的小站
+    27:
+      name: ZileWang7的Blog
+      link: https://zilewang7.github.io
+      avatar: https://zilewang7.github.io/images/avatar.png
+      descr: 等🐓啄完了🍚，🐕舔完了🍜，🔥烧断了🔒 Bolg就不🕊了
