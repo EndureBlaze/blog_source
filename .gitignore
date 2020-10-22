@@ -5,3 +5,10 @@ db.json
 .deploy_git
 node_modules/
 public/
+
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
