@@ -8,7 +8,7 @@ comments: false
 
 # 关于我
 
-- 常用 ID：`汝南京` ~~正在向后者过度，能改的都改了~~，`炎忍`，`EndureBlaze`；
+- 常用 ID：`炎忍`、~~`汝南京`~~、`EndureBlaze`；
 - 人在学校，大专生
 - 这是我的 [首页](https://endureblaze.cn)
 - [INFP-T](https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC)
@@ -27,8 +27,6 @@ comments: false
 炎忍的博客 是我的个人独立博客，基本上啥都写。原创内容多为技术分享、踩坑记录与日常吐槽，~~偶尔也会写点正经文字~~，~~反正一年也不会写多少~~。
 
 # 联系方式
-
-我还算比较注重个人隐私，属于那种闲着没事会搜索自己 ID 的人。
 
 你可以通过这些方式找到我：
 

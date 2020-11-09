@@ -98,22 +98,32 @@ avatar:
   img: /uploads/avatar.png
   effect: false
 
-# the banner image of home page
+# The banner image of home page
 index_img: https://api.dujin.org/bing/1920.php
 
-# if the banner of page not setting, it will show the top_img
+# If the banner of page not setting, it will show the top_img
 default_top_img: https://api.dujin.org/bing/1920.php
 
-# the banner image of archive page
+# The banner image of archive page
 archive_img:
 
-# the banner image of tag page
+# If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
 tag_img:
 
-# the banner image of category page
+# The banner image of tag page
+# format:
+#  - tag name: xxxxx
+tag_per_img:
+
+# If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
 category_img:
+
+# The banner image of category page
+# format:
+#  - category name: xxxxx
+category_per_img:
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
 # douban:
@@ -133,7 +143,7 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     - https://api.dujin.org/bing/1920.php
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+      # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -148,21 +158,21 @@ error_404:
 
 post_meta:
   page: # Home Page
-    date_format: relative # date/relative 顯示日期還是相對日期
-    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
     tags: false # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
-    date_format: relative # date/relative 顯示日期還是相對日期
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
+    date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
     label: true # true or false 顯示描述性文字
 
 # wordcount (字數統計)
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -183,7 +193,6 @@ index_post_content:
 toc:
   enable: true
   number: true
-  auto_open: true # auto open the sidebar
 
 post_copyright:
   enable: true
@@ -253,7 +262,6 @@ comments:
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
   use:
     - Valine
-  # - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -303,7 +311,8 @@ valine:
   appId: mkXwofMbfYO720xHjY1iGzCh-gzGzoHsz # leancloud application app id
   appKey: 3POIeGQPSzK4f9k77mDvBoWx # leancloud application app key
   pageSize: 10 # comment list page size
-  avatar: identicon # gravatar style https://valine.js.org/#/avatar
+  notify: true
+  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-cn # i18n: zh-CN/zh-TW/en/ja
   placeholder: Please leave your footprints # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
@@ -386,6 +395,7 @@ footer:
     url:
     text:
     icon: /img/icp.png
+
 # Analysis
 # --------------------------------------
 
@@ -495,16 +505,17 @@ tag_ui: # 留空或 index
 
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
-# The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-# White color will be shown as default
 background: url(/uploads/background.png)
 
-# Show the footer background image (same as top_img)
-footer_bg: false
+# Footer Background
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
+
+# Enter transitions (開啓網頁進入效果)
+enter_transitions: true
 
 # Background effects (背景特效)
 # --------------------------------------
@@ -519,7 +530,7 @@ canvas_ribbon:
   click_to_change: false
   mobile: false
 
-# Dynamic ribbon (動態彩帶)
+# Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
   enable: false
   mobile: false
@@ -540,14 +551,18 @@ activate_power_mode:
   enable: false
   colorful: true # open particle animation (冒光特效)
   shake: true #  open shake (抖動特效)
+  mobile: false
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
   enable: false
   zIndex: 9999 # -1 or 9999
+  mobile: false
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
-click_heart: false
+click_heart:
+  enable: false
+  mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 ClickShowText:
@@ -557,6 +572,7 @@ ClickShowText:
     # - LOVE
     # - YOU
   fontSize: 15px
+  mobile: false
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
@@ -611,6 +627,7 @@ subtitle:
   sub:
     - 心之所愿&#44;无所不成。
     - 同学习&#44;共成长&#44;不将就&#44;不妥协！
+
 # Loading Animation (加載動畫)
 preloader: false
 
@@ -619,6 +636,8 @@ preloader: false
 
 aside:
   enable: true
+  hide: false
+  button: true
   mobile: true # display on mobile
   position: left # left or right
   card_author:
@@ -691,7 +710,7 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: true
+  enable: false
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -756,18 +775,25 @@ note:
 # other
 # --------------------------------------
 
+# Artitalk
+# see https://artitalk.js.org/
+artitalk:
+  appId:
+  appKey:
+  option:
+
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -796,7 +822,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/lazyload
 lazyload:
-  enable: true
+  enable: false
   post: /img/loading.gif
 
 # PWA
@@ -826,17 +852,18 @@ fragment_cache: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css">
-    - <link rel="stylesheet" href="https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.css">
+    # - <link rel="stylesheet" href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css">
+    # - <link rel="stylesheet" href="https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.css">
     - <link rel="stylesheet" href="/css/font.css">
     - <link rel="stylesheet" href="/css/heimu.css">
   bottom:
     # - <script src="xxxx"></script>
-    - <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
-    - <script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
-    - <script src="https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.js"></script>
+    # - <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
+    # - <script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
+    # - <script src="https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.js"></script>
     - <script src="/js/crash_cheat.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/EndureBlaze/live2d-hao@0.1/autoload.js"></script>
+    - <div class="aplayer no-destroy" data-id="3111066489" data-server="netease" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -904,6 +931,7 @@ CDN:
   fireworks: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js
   click_heart: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js
   ClickShowText: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js
+
   # fontawesome
   fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 
@@ -923,3 +951,5 @@ CDN:
   prismjs_js: https://cdn.jsdelivr.net/npm/prismjs/prism.min.js
   prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
   prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+
+  artitalk: https://cdn.jsdelivr.net/npm/artitalk

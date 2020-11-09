@@ -1,125 +1,102 @@
-class:
+- classname:
   link_list:
-    1:
-      name: 灰灰のBLOG
-      link: https://blog.xhhold.com/
+    - name: 灰灰のBLOG
+      link: https://blog.xhhold.com
       avatar: https://blog.xhhold.com/images/avatar.jpg
-    2:
-      name: 逐梦影音
+    - name: 逐梦影音
       link: http://video.zmkj6.top
-      avatar: https://zmkj-1255910732.cos.ap-chengdu.myqcloud.com/%E9%80%90%E6%A2%A6%E8%A7%86%E9%A2%91/zmpaly_icon.png
-    3:
-      name: 九伏工作室的任饭聚集地
-      link: http://9-volt.ys168.com/
+      avatar: https://zmkj-1255910732.cos.ap-chengdu.myqcloud%E9%80%90%E6%A2%A6%E8%A7%86%E9%A2%91/zmpaly_icon.png
+    - name: 九伏工作室的任饭聚集地
+      link: http://9-volt.ys168.com
       avatar: https://xxxxx/avatar.png
-    4:
-      name: 何言的杂货店
-      link: http://heyanle.com/
-      avatar: http://heyanle.com/images/favicon-32x32-next.ico?v=7.4.0
-    5:
-      name: 天真的小窝
-      link: https://bin.zmide.com/
+    - name: 何言的杂货店
+      link: http://heyanle.com
+      avatar: https://s1.ax1x.com/2020/07/22/UHvGGR.jpg
+    - name: 天真的小窝
+      link: https://bin.zmide.com
       avatar: https://bin.zmide.com/wp-content/themes/this_bin/img/favicon.ico
-    6:
-      name: web1n
-      link: https://https.vc/
+    - name: web1n
+      link: https://https.vc
       avatar: https://xxxxx/avatar.png
-    7:
-      name: xcstar - xc's blog
-      link: http://www.xcstars.cn/
-      avatar: http://www.xcstars.cn/wp-content/uploads/2019/09/cropped-94f29ca23af68267091fa8ce7ec2f174-192x192.png
-    8:
-      name: 丁丁の店
-      link: https://blog.butanediol.me/
+    - name: 丁丁の店
+      link: https://blog.butanediol.me
       avatar: https://blog.butanediol.me/media/avatar.png
       descr: 丁二的日常在售
-    9:
-      name: 梧矜的屋
-      link: https://blog.00oo00.xyz/
+    - name: 梧矜的屋
+      link: https://blog.00oo00.xyz
       avatar: https://blog.00oo00.xyz/medias/avatar.jpg
       descr: 建议改成：梧 矜 的 屋
-    10:
-      name: XCLAN's Blog
+    - name: XCLAN's Blog
       link: https://watashimo.xyz
       avatar: https://www.watashimo.xyz/img/avatar.jpg
       descr: A Computer Science Student
-    11:
-      name: Epors的个人博客
-      link: http://epors.cn/
+    - name: Epors的个人博客
+      link: http://epors.cn
       avatar: https://secure.gravatar.com/avatar/3c622ef95f28da892afe86114e7de48d?s=80&r=G&d=
       descr: 我喜欢音乐，却学了很多计算机知识
-    12:
-      name: 小林卡比的技术分享
-      link: https://blog.zerokirby.cn/
+    - name: 小林卡比的技术分享
+      link: https://blog.zerokirby.cn
       avatar: https://blog.zerokirby.cn/img/avatar.jpg
       descr: 分享我软件工程的学习历程
-    13:
-      name: 阴天
+    - name: 阴天
       link: https://zhykirby.github.io
       avatar: https://zhykirby.github.io/img/avatar_m.jpg
       descr: 一身转战三千里，一剑曾当百万师。
-    14:
-      name: Kevin's Blog
-      link: https://www.moekevin.com/
+    - name: Kevin's Blog
+      link: https://www.moekevin.com
       avatar: https://cdn.v2ex.com/gravatar/82139e4535f29f5643866d116b81b9cd?s=160&d=mm&r=g
       descr: 我们是不足以称为奇迹的微光
-    15:
-      name: 飞翔企鹅的博客
+    - name: 飞翔企鹅的博客
       link: https://32bit.cn
       avatar: https://icon.qiantucdn.com/20200309/fb8cef770afcfc03ec333c544fde43042
       descr: 程序猿日常摸鱼笔记
-    16:
-      name: O3E Network
-      link: https://www.o3e.net/
+    - name: O3E Network
+      link: https://www.o3e.net
       avatar:
       descr: 一个神奇的页面
-    17:
-      name: 银弹的个人博客
-      link: https://yd.endureblaze.cn/
+    - name: 银弹的个人博客
+      link: https://yd.endureblaze.cn
       avatar: https://yd.endureblaze.cn/img/avatar.png
       descr:
-    18:
-      name: Pi
-      link: https://b.dopi.cc/
+    - name: Pi
+      link: https://b.dopi.cc
       avatar: https://b.dopi.cc/usr/themes/Bubble-master/images/avatar.png
       descr: 一个励志做全栈的小白
-    19:
-      name: 北极熊的窝
-      link: https://maoookai.cn/
-      avatar:
+    - name: 北极熊的窝
+      link: https://maoookai.cn
+      avatar: https://maoookai.cn/usr/uploads/2020/10/846309449.jpg
       descr: 命は、遠い船の如き…
-    21:
-      name: 扶摇直上九万里
-      link: https://skyrocketing.ninja/
-      avatar: https://i1.wp.com/skyrocketing.ninja/wp-content/uploads/2020/02/1580796682-A.png?w=600&ssl=1
+    - name: 扶摇直上九万里
+      link: https://skyrocketing.ninja
+      avatar: https://skyrocketing.ninja/wp-content/uploads/2019/12/cropped-icon.png
       descr: Undergraduate, Communist, programmer.
-    22:
-      name: 戊成的BLOG
-      link: https://www.wucheng.work/
+    - name: 戊成的BLOG
+      link: https://www.wucheng.work
       avatar:
       descr: 一个在努力学习的小菜鸟……
-    23:
-      name: 一只鸽子的小站
-      link: https://one-pigeon.github.io/
+    - name: 一只鸽子的小站
+      link: https://one-pigeon.github.io
       avatar: https://helloimg.com/images/2020/05/14/d941f8ea6030ef77066730f11212.png
       descr: 这只鸽子喜欢碎碎念……
-    24:
-      name: 青行三の个人博客
-      link: blog.jiehua1995.xyz
+    - name: 青行三の个人博客
+      link: https://blog.jiehua1995.xyz
       avatar: https://blog.jiehua1995.xyz/img/avatar.jpeg
       descr: 业余学习前端的生物狗
-    25:
-      name: Ying
+    - name: Ying
       link: https://yingserver.cn
       avatar: https://cdn.jsdelivr.net/gh/cxying/ying-blog-cdn/files/static/images/head.jpg
       descr: 喵~
-    26:
-      name: FANTASY博客
-      link: https://blog.tigerxly.com/
-      avatar: https://tigerxlystatic.togotoo.top/wp-content/my_icon.jpg
+    - name: FANTASY博客
+      link: https://blog.tigerxly.com
+      avatar: https://img.sunxiaochuan258.com/avatar/himari_256.jpg
       descr: 记录学习、生活的小站
-    27:
-      name: ZileWang7的Blog
+    - name: ZileWang7的Blog
       link: https://zilewang7.github.io
       avatar: https://zilewang7.github.io/images/avatar.png
       descr: 等🐓啄完了🍚，🐕舔完了🍜，🔥烧断了🔒 Bolg就不🕊了
+- classname:
+  class_desc: 已无法访问
+  link_list:
+    - name: xcstar - xc's blog
+      link: http://www.xcstars.cn
+      avatar: http://www.xcstars.cn/wp-content/uploads/2019/09/cropped-94f29ca23af68267091fa8ce7ec2f174-192x192.png
