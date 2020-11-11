@@ -11,15 +11,9 @@ author: 炎忍
 language: zh-CN
 timezone: Asia/Shanghai
 
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.endureblaze.cn
+url: https://blog.imyan.ren
 root: /
 permalink: posts/:abbrlink/
 abbrlink:
@@ -47,10 +41,12 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
+# 代码高亮
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # 自动生成sitemap
@@ -103,7 +99,8 @@ deploy:
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
-plugins: hexo-generate-feed
+plugins:
+  - hexo-generate-feed
 
 # Generate categories from directory-tree
 # Dependencies: https://github.com/xu-song/hexo-auto-category
@@ -114,7 +111,7 @@ auto_category:
 
 baidu_url_submit:
   count: 20 ## 提交最新的一个链接
-  host: blog.endureblaze.cn ## 在百度站长平台中注册的域名
+  host: blog.imyan.ren ## 在百度站长平台中注册的域名
   token: czftj7pG68mDZIJk ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 
@@ -138,7 +135,14 @@ offline:
     - urlPattern: /* # 如果你需要加载CDN资源，请配置该选项，如果没有，可以不配置。
       handler: cacheFirst
       options:
-        origin: https://blog.endureblaze.cn # 可替换成你的 url
+        origin: https://blog.imyan.ren# 可替换成你的 url
+
+# 搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # hexo-hide-posts
 hide_posts:

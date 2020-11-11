@@ -16,7 +16,7 @@ menu:
   留言: /contact/ || fa fa-comments
   游戏: /steamgames/ || fab fa-steam
   图集: /gallery/ || far fa-image
-  资源: https://pan.endureblaze.cn || fa fa-folder
+  资源: https://pan.imyan.ren || fa fa-folder
   Travelling: https://travellings.now.sh/ ||
 
 # Hide the child menu items in mobile sidebar
@@ -807,7 +807,7 @@ snackbar:
   bg_dark: "#2d3035" # The background color of Toast Notification in dark mode
 
 # Baidu Push (百度推送)
-baidu_push: false
+baidu_push: true
 
 # https://instant.page/
 # prefetch (預加載)

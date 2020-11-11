@@ -12,3 +12,4 @@ public/
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
+.history

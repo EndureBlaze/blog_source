@@ -9,5 +9,5 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: https://blog.endureblaze.cn/sitemap.xml
-Sitemap: https://blog.endureblaze.cn/baidusitemap.xml
+Sitemap: https://blog.imyan.ren/sitemap.xml
+Sitemap: https://blog.imyan.ren/baidusitemap.xml
