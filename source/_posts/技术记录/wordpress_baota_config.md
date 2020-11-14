@@ -23,7 +23,7 @@ WordPress 可能是比较好用的博客系统了，当然改一下做个非博�
 
 访问<https://cn.wordpress.org/download/>
 然后点击
-![enter description here](/blog_image/搭建/(1).png)
+![enter description here](../../media/article_img/wordpress_baota_config/1.png)
 下载到你能方便找到的地方就好了
 
 ## 系统和面板
@@ -41,34 +41,34 @@ WordPress 可能是比较好用的博客系统了，当然改一下做个非博�
 ### SSH 配置
 
 首先要到轻量应用服务器的[控制面板](https://swas.console.aliyun.com)然后点击你的服务器
-![enter description here](/blog_image/搭建/(2).png)
+![enter description here](../../media/article_img/wordpress_baota_config/2.png)
 
 点进去后再转到远程连接
-![enter description here](/blog_image/搭建/(3).png)
+![enter description here](../../media/article_img/wordpress_baota_config/3.png)
 
 选择这里任何一种都可以，没有任何影响
-![enter description here](/blog_image/搭建/(4).png)
+![enter description here](../../media/article_img/wordpress_baota_config/4.png)
 
 那么我这里是用的第三种，也就是用账号密码来连接。
 
 ### SSH 客户端
 
-因为用账号密码的话，是要用本地客户端连接的，那么这里推荐使用[FinalShel](http://www.hostbuf.com/t/988.html)来连接，国人制作，有免费版本，中文界面，支持 Windows,macOS,Linux
+因为用账号密码的话，是要用本地客户端连接的，那么这里推荐使用[FinalShell(http://www.hostbuf.com/t/988.html)来连接，国人制作，有免费版本，中文界面，支持 Windows,macOS,Linux
 点金网址后选择你系统对应的链接就可以下载了
-![enter description here](/blog_image/搭建/(5).png)
+![enter description here](../../media/article_img/wordpress_baota_config/5.png)
 
 下载安装后打开就可以看到界面了
 
 然后点击这个按钮
-![enter description here](/blog_image/搭建/(6).png)
+![enter description here](../../media/article_img/wordpress_baota_config/6.png)
 
 然后点击
-![enter description here](/blog_image/搭建/(7).png)
+![enter description here](../../media/article_img/wordpress_baota_config/7.png)
 
 就可以添加一个连接了
 
 在这里输入服务器的名字，ip，用户名，密码，然后保存再双击刚才添加的就可以连接了
-![enter description here](/blog_image/搭建/(8).png)
+![enter description here](../../media/article_img/wordpress_baota_config/8.png)
 
 ## 安装面板
 
@@ -139,7 +139,7 @@ f1g1ns2.dnspod.net
 现在登录你的宝塔面板，在侧边栏找到**网站**，点击后选择**添加站点**
 
 然后这样填
-![enter description here](/blog_image/搭建/(9).png)
+![enter description here](../../media/article_img/wordpress_baota_config/9.png)
 
 ~~再次声明，ljbaidu.com只是调侃，请填写自己的域名~~
 
@@ -149,7 +149,7 @@ f1g1ns2.dnspod.net
 
 然后选择侧边栏的**数据库**，然后选择**添加数据库**
 填写数据库名称，用户名和密码，选择访问权限然后选择提交，如图(注意看箭头所指的选项)
-![enter description here](/blog_image/搭建/(10).png)
+![enter description here](../../media/article_img/wordpress_baota_config/10.png)
 
 ### 修改 WordPress 配置
 
@@ -204,34 +204,34 @@ define( 'DB_COLLATE', '' );
 保存文件并退出
 
 返回上一目录，压缩这个文件夹
-![enter description here](/blog_image/搭建/(11).png)
+![enter description here](../../media/article_img/wordpress_baota_config/11.png)
 
 ### 上传 WordPress
 
 打开宝塔面板，选择网站
 
 点击根目录那一栏下面的文字，也就是
-![enter description here](/blog_image/搭建/(12).png)
+![enter description here](../../media/article_img/wordpress_baota_config/12.png)
 
 然后选择**上传**，再点击**选择文件**，然后找到刚才打包的文件
-![enter description here](/blog_image/搭建/(13).png)
+![enter description here](../../media/article_img/wordpress_baota_config/13.png)
 
 点击**开始上传**，等待即可
 
 ### 解压
 
 点击这个选项，然后直接确定即可解压
-![enter description here](/blog_image/搭建/(14).png)
+![enter description here](../../media/article_img/wordpress_baota_config/14.png)
 
 现在访问 你的域名/wp-admin/install.php 就可以开始安装了，比如 <http://ljbaidu.com/wp-admin/install.php> ~~再次，我没有这个域名，所以下来用我的域名做演示~~
 
 访问之后可以看到这个界面
-![enter description here](/blog_image/搭建/(15).png)
+![enter description here](../../media/article_img/wordpress_baota_config/15.png)
 
 根据图上的注释填写，然后点击就可以安装了
 
 在这里点击Log In
-![enter description here](/blog_image/搭建/(16).png)
+![enter description here](../../media/article_img/wordpress_baota_config/16.png)
 
 在下一个页面登录即可
 

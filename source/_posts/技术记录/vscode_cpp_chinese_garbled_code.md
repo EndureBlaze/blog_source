@@ -29,9 +29,9 @@ date: 2020-04-08 16:45:23
 
 然后保存即可，现在编译就不会出现中文乱码的问题了，这里贴一下图
 
-![修改前](/blog_image/解决VSCode编译CC++是输出中文乱码的问题/修改前.png)
+![修改前](../../media/article_img/vscode_cpp_chinese_garbled_code/修改前.png)
 
-![修改后](/blog_image/解决VSCode编译CC++是输出中文乱码的问题/修改后.png)
+![修改后](../../media/article_img/vscode_cpp_chinese_garbled_code/修改后.png)
 
 ### 缺点
 
@@ -41,7 +41,7 @@ date: 2020-04-08 16:45:23
 
 ~~其实也可以通过这个按钮解决，不过这个是改变文件的编码，如果把这个文件放到其他设备上可能会有问题~~
 
-![按钮](/blog_image/解决VSCode编译CC++是输出中文乱码的问题/按钮.png)
+![按钮](../../media/article_img/vscode_cpp_chinese_garbled_code/按钮.png)
 
 ## 工作区
 

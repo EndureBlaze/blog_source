@@ -32,7 +32,7 @@ tags:
 ### 无力吐槽的图标
 
 列表是有了，那图标？既然这是关于 `星之卡比` 的程序，那就用一张官方的图，后面再用 PS Touch 做一个背景上去，就是下面这个
-![初代-未使用](/blog_image/Kirby Assistant 编年史/初代-未使用.png)
+![初代-未使用](../../media/article_img/chronicle_of_kirbyassistant/初代-未使用.png)
 
 什么?这也太丑了吧？你看这色彩，这布局，这裁剪，丑到家了。不过当时可没有人来帮我做设计，就现先这样用吧。
 
@@ -42,7 +42,7 @@ tags:
 
 然后我就带着这个样子的程序去贴吧发帖了~~当然因为傻逼百度这贴已经找不到了~~
 ~~对了，图标我换了，长这样~~
-![初代-使用且出现视频](/blog_image/Kirby_Assistant_编年史/初代-使用且出现视频.png)
+![初代-使用且出现视频](../../media/article_img/chronicle_of_kirbyassistant/初代-使用且出现视频.png)
 而且当时还做了个 [视频](https://www.bilibili.com/video/av7053495) ~~辣眼睛注意~~
 
 <iframe src="//player.bilibili.com/player.html?aid=7053495&cid=11499734&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
@@ -56,17 +56,17 @@ tags:
 ### 崭新的 Kirby Download
 
 那用了新的语言，怎么能不重新设计界面呢，首先就是界面大改~~当然这是测试版界面~~
-![ka-测试版界面](/blog_image/Kirby_Assistant_编年史/ka-测试版界面.png)
+![ka-测试版界面](../../media/article_img/chronicle_of_kirbyassistant/ka-测试版界面.png)
 
 新的图标，一定要极简，本文设计，质感设计都要有，于是就有了下面这样
-![kd-初代后到0.8版本前](/blog_image/Kirby_Assistant_编年史/kd-初代后到0.8版本前.png)
+![kd-初代后到0.8版本前](../../media/article_img/chronicle_of_kirbyassistant/kd-初代后到0.8版本前.png)
 
 这样，Kirby Download~~钦定的~~诞生日就有了 2019-1-15
 
 ### 完整的资源
 
 因为还有学业，所以不能做到日更，所以在周更和双周更的情况下终于在 2017-03-25 收录了绝大部分资源，此时应用界面已经比较现代了~~并且傻逼一样的给应用名末尾加了个 β~~
-![kd-资源最终版](/blog_image/Kirby_Assistant_编年史/kd-资源最终版.jpg)
+![kd-资源最终版](../../media/article_img/chronicle_of_kirbyassistant/kd-资源最终版.jpg)
 
 可以说，这个主页列表界面基本上维持到 Lua 版本结束
 
@@ -75,10 +75,10 @@ tags:
 ### 跨越 版本 1.0
 
 1.0 算是已经接近 Lua 版本的尾声了，此时发布了一个对今后影响十分巨大的主页界面
-![ka-1.0](/blog_image/Kirby_Assistant_编年史/ka-1.0.jpg)
+![ka-1.0](../../media/article_img/chronicle_of_kirbyassistant/ka-1.0.jpg)
 
 而且在此之前更换了新的图标，不过这个图标没有持续很久使用
-![kd-0.8到1.0版本前](/blog_image/Kirby_Assistant_编年史/kd-0.8到1.0版本前.png)
+![kd-0.8到1.0版本前](../../media/article_img/chronicle_of_kirbyassistant/kd-0.8到1.0版本前.png)
 
 但是这个版本 bug 居多，很多人反映无法使用，所以我很快迭代了
 
@@ -116,10 +116,10 @@ tags:
 ### 来了来了,他来了
 
 `2017-08-14` 这天算是正式发布了 KD 的 Java 版吧，于是乎就有了[我又来炒冷饭了，虫 ♤ 人一口 虫 ♤ 人一口](https://tieba.baidu.com/p/5272051400) ~~标题暴力，暗示那位大人偷走了我停更的时间咳咳咳~~界面如下
-![kd-Java](/blog_image/Kirby_Assistant_编年史/kd-java.jpg)
+![kd-Java](../../media/article_img/chronicle_of_kirbyassistant/kd-java.jpg)
 
 同时这个图标也是从 Lua 版一直用到 Java 版
-![kd1.0到2.2.3](/blog_image/Kirby_Assistant_编年史/kd1.0到2.2.3.png)
+![kd1.0到2.2.3](../../media/article_img/chronicle_of_kirbyassistant/kd1.0到2.2.3.png)
 
 ### V2？集合体？Slogan？2018？都是什么
 
@@ -145,7 +145,7 @@ tags:
 #### 除夕夜发布
 
 此时 KD 界面已经是很接近现在的了，具体如图
-![ka-3.0](/blog_image/Kirby_Assistant_编年史/ka-3.0.jpg)
+![ka-3.0](../../media/article_img/chronicle_of_kirbyassistant/ka-3.0.jpg)
 
 以及，真就除夕夜发布~~正好一周年，蛮有意义的~~
 [【预热】kirby download3.0，除夕夜发布！！](https://tieba.baidu.com/p/5551002824)
@@ -170,7 +170,7 @@ tags:
 ### 反思
 
 这个事情过后我也反思自己，也确实做的不够好，如果做的很好，就不会引来别人的这种说法，这么想着，我在 QQ 空间发了如下说说
-![空间截图](/blog_image/Kirby_Assistant_编年史/空间截图.jpg)
+![空间截图](../../media/article_img/chronicle_of_kirbyassistant/空间截图.jpg)
 也算是预告吧
 
 ## 崭新的 你好 Kirby Assistant
@@ -178,7 +178,7 @@ tags:
 ### 从头来过
 
 `2019-2-27` 我在贴吧发帖[【资源】Kirby Assistant](https://tieba.baidu.com/p/5568861528),这个界面基本定格至今了
-![ka-初版](/blog_image/Kirby_Assistant_编年史/ka-初版.jpg)
+![ka-初版](../../media/article_img/chronicle_of_kirbyassistant/ka-初版.jpg)
 
 ### 新的特性
 
@@ -191,9 +191,9 @@ tags:
 ### 新的图标
 
 这是分别在 0.4-beta1
-![ka-0.4b1 之后-双图标-主图标-hk流星](/blog_image/Kirby_Assistant_编年史/ka-0.4b1之后-双图标-主图标-hk流星.png)
+![ka-0.4b1 之后-双图标-主图标-hk流星](../../media/article_img/chronicle_of_kirbyassistant/ka-0.4b1之后-双图标-主图标-hk流星.png)
 和 0.4-beta2
-![ka-0.4b2 后-双图标-副图标-Markuss](/blog_image/Kirby_Assistant_编年史/ka-0.4b2后-双图标-副图标-Markuss.png)
+![ka-0.4b2 后-双图标-副图标-Markuss](../../media/article_img/chronicle_of_kirbyassistant/ka-0.4b2后-双图标-副图标-Markuss.png)
 的图标，直到目前我也是最喜欢的两个，后面做成了双图标模式
 
 ## 未来·炫动
@@ -215,7 +215,7 @@ tags:
 
 ### 无延迟启动
 
-1.2（Build 23）引入的全新启动模式，根据 AndoidP API 编写，适配新特性，毫秒级启动速度
+1.2（Build 23）引入的全新启动模式，根据 AndroidP API 编写，适配新特性，毫秒级启动速度
 
 ### 全新网站
 
@@ -225,7 +225,7 @@ tags:
 ### 更全新的图标
 
 在 1.2.7 版本我合并了两个图标并且 hk 流星 进行了微调
-![ka-1.2.7后-现用-hk流星重绘](/blog_image/Kirby_Assistant_编年史/ka-1.2.7后-现用-hk流星重绘.png)
+![ka-1.2.7后-现用-hk流星重绘](../../media/article_img/chronicle_of_kirbyassistant/ka-1.2.7后-现用-hk流星重绘.png)
 这也是到目前为止一直使用的图标
 
 ### AndroidX，MD2，以及更小的体积

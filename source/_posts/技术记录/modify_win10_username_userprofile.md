@@ -24,7 +24,7 @@ tags:
 我们需要开启这个账户去修改注册表和文件夹名，家庭版用户请先升级到专业版，专业版用户打开
 `控制面板` -> `系统和安全` -> `管理工具` -> `计算机管理`，然后按图所示依次打开
 `本地用户和组` -> `用户` -> `Administrator`，然后去掉 `账户已禁用` 前面的复选框即可。
-![开启 Administrator 账户](/blog_image/修改Windows10的用户名以及用户文件夹/计算机管理.png)
+![开启 Administrator 账户](../../media/article_img/modify_win10_username_userprofile/计算机管理.png)
 
 ## 修改用户名
 
@@ -37,7 +37,7 @@ tags:
 ## 修改注册表
 
 注销当前账户切换到 Administrator，按下 `Win + R` 打开命令窗口，输入 `regedit` 回车运行打开注册表编辑器。使用 `Ctrl + F` 搜索 `ProfileList` 或者手动定位到 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList` 这一项。在这里有很多 `S-1-5` 开头的项，依次检查会有一个 `ProfileListPath` 为 `C:\User\<你的用户名>` 这一项，双击修改即可。
-![修改注册表](/blog_image/修改Windows10的用户名以及用户文件夹/修改注册表.png)
+![修改注册表](../../media/article_img/modify_win10_username_userprofile/修改注册表.png)
 
 ## 修改文件夹名
 
@@ -54,4 +54,4 @@ tags:
 - 一个一个修改路径保证不出错
 - 创建一个联接
   > 用管理员权限运行一个 CMD 窗口，然后输入 `MKLINK /J C:\Users\<旧用户名> C:\Users\<新用户名>`，这样不论访问 `C:\Users\<旧用户名>` 还是 `C:\Users\<新用户名>` 都会定位到 `C:\Users\<新用户名>`。出现下图这样就是成功了。
-  > ![创建联接](/blog_image/修改Windows10的用户名以及用户文件夹/链接.png)
+  > ![创建联接](../../media/article_img/modify_win10_username_userprofile/链接.png)
