@@ -4,7 +4,7 @@ date: 2019-11-14 11:17:40
 type: "link"
 ---
 
-# 如何互链
+## 如何互链
 
 您需要提供的信息：
 
@@ -16,8 +16,8 @@ type: "link"
 本站信息：
 
 - 站点名称：炎忍的博客
-- 站点链接：https://blog.imyan.ren
-- 站点头像 URL：https://blog.imyan.ren/media/avatar.png
+- 站点链接：<https://blog.imyan.ren>
+- 站点头像 URL：<https://blog.imyan.ren/media/avatar.png>
 - 描述：心之所愿，无所不成。
 
 留言方式

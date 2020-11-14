@@ -6,7 +6,7 @@ layout: about
 comments: false
 ---
 
-# 关于我
+## 关于我
 
 - 常用 ID：`炎忍`、~~`汝南京`~~、`EndureBlaze`；
 - 人在学校，大专生
@@ -20,13 +20,13 @@ comments: false
 - 半个米粉，来听 [Are you OK](https://www.bilibili.com/video/av2271112)；
 - 热爱自由开放、美好与简单优雅的事物。
 
-# 欢迎来访
+## 欢迎来访
 
 虽然现在是独立博客式微的时代，但无论你是循关键词自搜索引擎而来，还是从 SNS、朋友引荐而来，能在众多博客中与你相遇，也未尝不是一种缘分。欢迎你！
 
 炎忍的博客 是我的个人独立博客，基本上啥都写。原创内容多为技术分享、踩坑记录与日常吐槽，~~偶尔也会写点正经文字~~，~~反正一年也不会写多少~~。
 
-# 联系方式
+## 联系方式
 
 你可以通过这些方式找到我：
 
@@ -39,7 +39,7 @@ comments: false
 
 ~~更多尚在补全中~~
 
-# 来听歌啊
+## 来听歌啊
 
 网易云音乐 [@汝南京](https://music.163.com/#/user/home?id=323833067)
 
@@ -47,13 +47,13 @@ comments: false
 
 ---
 
-# 我的项目
+## 我的项目
 
 这是我写的一些项目
 
 | 项目名称                    |                                                链接                                                 | 简介                                           |
 | :-------------------------- | :-------------------------------------------------------------------------------------------------: | :--------------------------------------------- |
-| **Kirby Assistant**         | [官网](https://kirby.imyan.ren/) [酷安]() [GitHub](https://github.com/EndureBlaze/Kirby-Assistant)  | 一个方便在安卓手机上玩星之卡比的工具           |
+| **Kirby Assistant**         | [官网](https://kirby.imyan.ren/) [酷安](https://www.coolapk.com/game/cn.endureblaze.kirby) [GitHub](https://github.com/EndureBlaze/Kirby-Assistant)  | 一个方便在安卓手机上玩星之卡比的工具           |
 | **GlideCache**              |                         [GitHub](https://github.com/EndureBlaze/GlideCache)                         | 一个可以方便快捷操作 Glide 本地缓存的开源库    |
 | **ExecuteShell**            |                        [GitHub](https://github.com/EndureBlaze/ExecuteShell)                        | 一个可以方便的执行 Shell 命令的 Android 开源库 |
 | **快否激活器**              | [酷安](https://www.coolapk.com/apk/237389) [GitHub](https://github.com/EndureBlaze/ActivateBenchaf) | 一个第三方的快否激活器                         |
@@ -62,7 +62,7 @@ comments: false
 
 ---
 
-# 来玩游戏啊
+## 来玩游戏啊
 
 - steam：endureblaze
 - 守望先锋：汝南京#5207
@@ -71,7 +71,7 @@ comments: false
 
 ---
 
-# 关于站点
+## 关于站点
 
 - 框架：[Hexo](https://hexo.io/)
 - 主题：[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)

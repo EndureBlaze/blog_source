@@ -12,13 +12,13 @@ date: 2020-03-01 12:58:56
 
 > 每一个不一样的人，背后都有一个爱他的人
 
-# 纪录片视频
+## 纪录片视频
 
 <iframe style="width: 640px; height: 430px; max-width: 100%" src="https://www.youtube.com/embed/V_M9ZId2QAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 墙内用户请点击 [这里](https://www.bilibili.com/video/av31143991?p=2)
 
-# 正文
+## 正文
 
 纪录片《不一样又怎样》中的台湾少年叶永志被称为玫瑰少年。因为经常被说行为举止不男不女，被老师要求去看医生，还长期遭到同学们的霸凌。终于在一次群体性的霸凌事件中，叶永志再也没睁开眼。
 

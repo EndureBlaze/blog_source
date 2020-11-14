@@ -27,7 +27,7 @@ date: 2020-04-26 23:14:44
 
 那么剩下的就是 `ViewBinding` 了，这个只需要在继承的时候传入参数就好了，那就开始动手
 
-# BaseFragment 部分
+## BaseFragment 部分
 
 首先贴上代码
 
@@ -101,7 +101,7 @@ abstract class BaseFragment<T : ViewBinding>(private val layoutId: Int) : Fragme
 - class 必须声明为 abstract 这样才能让子类去实现懒加载的方法
 - 注意 `_binding` 和 `binding`，这两个一个对外一个对内，对内的注意在 onDestroyView 进行释放，以免内存泄漏
 
-# 子类 TestFragment
+## 子类 TestFragment
 
 那我们看看这个应该如何使用吧
 （假设你的 Fragment 的布局名称是 fragment_test，里面有一个 id 为 tvMain 的 TextView）
@@ -128,7 +128,7 @@ class TestFragment : BaseFragment<FragmentTestBinding>(R.layout.fragment_test) {
 
 跟简单吧，做到了 View 与数据的分离
 
-# ViewAdapter 的处理
+## ViewAdapter 的处理
 
 那说了这么多，「那个参数」 到底在哪里呢？来了来了，不过我们要先写一个 adapter 才可以
 

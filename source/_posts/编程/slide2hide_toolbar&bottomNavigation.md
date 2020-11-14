@@ -15,7 +15,7 @@ date: 2019-08-09 23:23:00
 (这里有图，GitHub 可能速度比较慢)
 ![最终效果](/blog_image/实现滑动隐藏ToolBar与BottomNavigation/最终效果.gif)
 
-# 准备过程
+## 准备过程
 
 首先这样的效果都是基 `CoordinatorLayout` 来实现的，所以先在 `app` 模块下添加如下依赖
 
@@ -39,7 +39,7 @@ implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01'//版�
 
 到此，准备过程就完成了
 
-# 实现隐藏 Toolbar
+## 实现隐藏 Toolbar
 
 首先在上面的基础上需要添加 Toolbar 组件，如
 
@@ -60,22 +60,22 @@ implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01'//版�
                 android:layout_height="?attr/actionBarSize"
                 android:layout_width="match_parent"
                 android:background="?attr/colorPrimary"
-                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" 
-				android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:elevation="4dp"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 app:layout_scrollFlags="scroll|enterAlways|snap">
                 <!--上面这行重点-->
-					   
+
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
-	
-	<!--可能会有其他的组件-->
-	
+
+    <!--可能会有其他的组件-->
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
 
-那么这里需要说明一下 `app:layout_scrollFlags="scroll|enterAlways|snap"` 是什么意思，这个实际上是用来控制 AppBarLayout 内部组件的行为。		
+那么这里需要说明一下 `app:layout_scrollFlags="scroll|enterAlways|snap"` 是什么意思，这个实际上是用来控制 AppBarLayout 内部组件的行为。  
 
 其中,`scroll` 表示当界面向上滚动的时候, Toolbar会
 跟着一起向上滚动并实现隐藏。
@@ -96,22 +96,22 @@ implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01'//版�
         android:layout_height="match_parent">
 
     <!--AppBarLayout相关组件-->
-	
-	<androidx.recyclerview.widget.RecyclerView
+
+    <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/main_rlv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
-			<!--重点-->
+            <!--重点-->
 
-	<!--可能会有其他的组件-->
-	
+    <!--可能会有其他的组件-->
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
 
-可以看到这里指定了一个` app:layout_behavior="@string/appbar_scrolling_view_behavior"`那么这个属性实际上是谷歌封装好的一个 Behavior，已经完成了 Toolbar 隐藏所有动画效果。
+可以看到这里指定了一个 `app:layout_behavior="@string/appbar_scrolling_view_behavior"` 那么这个属性实际上是谷歌封装好的一个 Behavior，已经完成了 Toolbar 隐藏所有动画效果。
 
-# 实现隐藏 BottomNavigation
+## 实现隐藏 BottomNavigation
 
 BottomNavigation 的话，谷歌没有进行封装，需要我们自己实现，那么先在布局添加 BottomNavigation 组件
 
@@ -123,19 +123,20 @@ BottomNavigation 的话，谷歌没有进行封装，需要我们自己实现，
         android:layout_height="match_parent">
 
     <!--AppBarLayout相关组件-->
-	
-	<!--RecyclerView组件-->
-	
-	<com.google.android.material.bottomnavigation.BottomNavigationView
+
+    <!--RecyclerView组件-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/main_bottom_navigation_bar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:layout_gravity="bottom"
             android:background="?android:attr/windowBackground"
-            android:elevation="8dp"                            app:layout_behavior="cn.endureblaze.kirby.main.BottomNavigationBehavior"
+            android:elevation="8dp"
+            app:layout_behavior="cn.endureblaze.kirby.main.BottomNavigationBehavior"
             app:menu="@menu/main_bottom_navigation_menu"
             app:labelVisibilityMode="labeled"/>
-	
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
 
@@ -277,7 +278,7 @@ public class BottomNavigationBehavior<V extends View>  extends CoordinatorLayout
 
 snap 效果可以通过`private boolean isSnappingEnabled = true//false是关闭;`来控制
 
-# FloatingActionButton 呢？
+## FloatingActionButton 呢
 
 上面的这些都是忽略了 FAB 的情况下，那么 FAB 应该如何实现呢？当然也是靠自定义 behavior 不过稍稍有点不同，一起来看看吧
 
@@ -291,10 +292,10 @@ snap 效果可以通过`private boolean isSnappingEnabled = true//false是关闭
         android:layout_height="match_parent">
 
     <!--AppBarLayout相关组件-->
-	
-	<!--RecyclerView组件-->
-	
-	<!--BottomNavigationView组件-->
+
+    <!--RecyclerView组件-->
+
+    <!--BottomNavigationView组件-->
 
 <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_main"
@@ -307,7 +308,7 @@ snap 效果可以通过`private boolean isSnappingEnabled = true//false是关闭
             app:layout_behavior="cn.endureblaze.kirby.main.BottomNavigationFABBehavior"
             app:fabSize="normal"
             app:layout_scrollFlags="scroll|enterAlways"/>
-		
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
 
@@ -318,7 +319,8 @@ snap 效果可以通过`private boolean isSnappingEnabled = true//false是关闭
    app:layout_anchorGravity="top|end"
    app:layout_behavior="cn.endureblaze.kirby.main.BottomNavigationFABBehavior"
 ```
-`layout_anchor` 是用来指定一个 FAB 的锚点，即以哪个控件为参照点设置位置		
+
+`layout_anchor` 是用来指定一个 FAB 的锚点，即以哪个控件为参照点设置位置  
 `layout_anchorGravity` 设置 FAB 相对锚点的位置，值有 bottom、center、right、left、top等
 `layout_behavior` 依然是设置自定义 behavior，不再赘述
 
@@ -376,6 +378,6 @@ public class BottomNavigationFABBehavior<V extends View>  extends CoordinatorLay
 
 可以看到还是比较简单的，主要是实现了与底栏的交互还有 snackbar 的交互
 
-# 结尾
+## 结尾
 
-那这个实现是我参考了其他的博文以及 GitHub 的一些项目总结出来的，如果那里有问题还请指出
+那这个实现是我参考了其他的博文以及 GitHub 的一些项目总结出来的，如果那里有问题还请指

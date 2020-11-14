@@ -10,13 +10,14 @@ abbrlink: 2bdd4eaf
 date: 2019-11-17 20:08:29
 ---
 众所周知 酷Q 是 Windows 平台下的， Linux 下要使用还是有难度的，好在官方做出了了 docker 镜像，这样就可以在 docker 直接运行了
-# 准备
+
+## 准备
 
 * 一台 Linux 服务器 (这里用来演示的系统是 CentOS 7.6 当然其他系统也ok)
 * docker
 * 酷Q 容器
 
-# 安装及运行 docker
+## 安装及运行 docker
 
 在 CentOS 下直接使用 yum 安装即可
 
@@ -50,7 +51,7 @@ sudo docker pull coolq/wine-coolq
 
 创建一个用于存放（映射）coolq 数据的目录（可以理解为数据卷？），用于持久化存放 coolq（酷Q应用）的数据
 
-``` bash 
+``` bash
 sudo mkdir /coolq-data
 ```
 
@@ -84,6 +85,7 @@ sudo docker run --name=coolq -d -p 8080:9000 -v /coolq-data:/home/user/coolq -e 
 而酷Q要登录的qq小号（充当机器人）也可以通过-e COOLQ_ACCOUNT 去指定
 
 ### 4. 通过浏览器登录 vnc 进行使用
-现在用浏览器打开 http://你的ip:8080 就可以看到 vnc 界面了，点击`链接`然后输入密码就可以看到桌面了，里面已经运行了 coolq air
+
+现在用浏览器打开 <http://你的ip:8080> 就可以看到 vnc 界面了，点击`链接`然后输入密码就可以看到桌面了，里面已经运行了 coolq air
 
 可以看到使用 docker 还是很方便的，之前只用 wine 总是出现字体丢失的问题

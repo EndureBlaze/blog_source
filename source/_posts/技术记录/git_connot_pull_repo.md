@@ -24,7 +24,7 @@ fatal: refusing to merge unrelated histories
 
 因为他们是两个不同的项目，要把两个不同的项目合并，Git需要添加一句代码，在 `git pull` 之后，这句代码是在 `Git 2.9.2` 版本发生的，最新的版本需要添加 `--allow-unrelated-histories` 告诉 `git` 允许不相关历史合并
 
-假如我们的源是 `origin`，分支是 `master`，那么我们需要这样写 `git pull origin master --allow-unrelated-histories`  如果有设置了默认上传分支就可以用下面代码 
+假如我们的源是 `origin`，分支是 `master`，那么我们需要这样写 `git pull origin master --allow-unrelated-histories`  如果有设置了默认上传分支就可以用下面代码  
 
 ``` Shell
 git pull --allow-unrelated-histories

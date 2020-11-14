@@ -11,13 +11,13 @@ date: 2020-02-18 13:10:33
 
 > 下面有完整代码，自行复制
 
-# 环境
+## 环境
 
 - Hexo [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) 主题
 
 - 本地运行脚本需要安装 Python 3
 
-# 文件层级要求
+## 文件层级要求
 
 首先你要知道 Butterfly 的相册格式，类似下面这样：
 
@@ -84,7 +84,7 @@ type: "picture"
 // 剩下的最好为空，不过问题不大
 ```
 
-# 脚本
+## 脚本
 
 首先贴上完整脚本：
 
@@ -120,15 +120,15 @@ with open('index.md', 'a', encoding='utf-8') as f:
 
 将此脚本保存到和 `index.md` 同级目录，然后定位到该目录执行 `python <你保存的文件名>.py` 即可使用。
 
-# 解析
+## 解析
 
 下面我来解析一下这个脚本，~~轻喷，我两天前才玩的 Python~~
 
-## 导入模块
+### 导入模块
 
 首先使用 `import os` 导入 os 模块
 
-## 获取路径
+### 获取路径
 
 ```Python
 path = os.path.split(os.path.realpath(__file__))[0]
@@ -137,7 +137,7 @@ path2 = path[path.rfind("source")+6:]
 
 获取脚本所在位置的绝对路径保存在 `path`，使用 `rfind()` 函数从右往左找到第一个 `source` 字符~~如果你后面也有自己起这个名字的文件夹我就没办法了~~，然后使用分片截取 `source\` 后的路径保存在 `path2`。
 
-## 遍历文件名
+### 遍历文件名
 
 ```Python
 os.chdir(path+"\images")
@@ -149,7 +149,7 @@ for file in os.scandir():
 
 使用 `chdir()` 切换工作目录到当前目录下的 `images` 目录，也就是放图片的目录，以便获取图片，然后遍历目录下的所有文件名称保存在 `ls_file` 中。
 
-## 处理格式
+### 处理格式
 
 ```Python
 md_text = "\n{% gallery %}\n"
@@ -178,7 +178,7 @@ md_text += "{% endgallery %}"
 
 最后整理好格式，使用 `+` 将各部分连接好，并且使用 `replace()` 替换所有的 `\` 为`/` 就成型了。
 
-## 写入文件
+### 写入文件
 
 ```Python
 os.chdir(path)
@@ -191,6 +191,6 @@ with open('index.md', 'a', encoding='utf-8') as f:
 
 `with open(filename) as file:` 这是固定格式，不必多讲，不过一定要注意使用 `'a'` 切换到追加模式，以免丢失原来的模板；使用 `encoding='utf-8'` 指定编码，以免写入中文时乱码。
 
-# 懒是人类进步阶梯
+## 懒是人类进步阶梯
 
 这是我用 Python 写的第一个玩意儿，主要是每次都要手动加好麻烦，我就想能不能用 Python 写一个脚本处理。学了两天，写的不是很好，比如不能自动识别原来已有的格式进行替换，每次都要手动去清除，又或者得手动执行，不能在 Hexo 部署的时候进行执行。

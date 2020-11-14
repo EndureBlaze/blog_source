@@ -1,4 +1,4 @@
-# hexo-theme-butterfly
+## hexo-theme-butterfly
 
 ![version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly)
 ![https://img.shields.io/npm/v/hexo-theme-butterfly?color=%09%23bf00ff](https://img.shields.io/npm/v/hexo-theme-butterfly?color=%09%23bf00ff)
@@ -13,9 +13,9 @@
 
 一款基於[hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody)修改的主題
 
-## 安裝
+### 安裝
 
-### Git 安裝
+#### Git 安裝
 
 > 本倉庫同時上傳到 [Gitee](https://gitee.com/iamjerryw/hexo-theme-butterfly)，如果你訪問 Github 緩慢，可從 Gitee 中下載。
 
@@ -31,7 +31,7 @@ git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes
 git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 ```
 
-### npm 安裝
+#### npm 安裝
 
 > 此方法只支持Hexo 5.0.0以上版本
 
@@ -41,7 +41,7 @@ git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/bu
 npm i hexo-theme-butterfly
 ```
 
-## 應用主題
+### 應用主題
 修改hexo配置文件`_config.yml`，把主題改為`Butterfly`
 
 ```
@@ -50,7 +50,7 @@ theme: butterfly
 
 >如果你沒有pug以及stylus的渲染器，請下載安裝： npm install hexo-renderer-pug hexo-renderer-stylus --save
 
-## 特色
+### 特色
 
 - [x] 卡片化設計
 - [X] 支持二級目錄
@@ -89,7 +89,7 @@ theme: butterfly
 - [x] 圖片懶加載
 - [x] Instantpage/Pangu/Snackbar彈窗/PWA......
 
-## 截圖
+### 截圖
 
 ![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-1.png)
 

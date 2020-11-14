@@ -16,7 +16,7 @@ tags:
 注意本文使用的语言的是 Kotlin，如需 Java 请自行转换或在网络自行搜索，本文的 minSDK 为 21
 {% endnote %}
 
-# 弃用
+## 弃用
 
 通常提起 Android 程序更换语言可能会想到 `Context` 的 `getResources().updateConfiguration(configuration, displayMetrics)`,传入设置好 `Locale` 的 `configuration` 以及 `Context` 的 `getResources().getDisplayMetrics()`。
 
@@ -29,7 +29,7 @@ tags:
 
 那简单了，我们只需要看看 `Context.createConfigurationContext(Configuration)` 怎么使用就可以了，分析一下，这个方法是返回一个 `Context`，那我们只需要重写一下 `ContextWrapper` 就好了,这样获取到的就是用一个 `Context`，保证更换语言成功。
 
-# 重写 ContextWrapper
+## 重写 ContextWrapper
 
 这是我写好的 `ContextWrapper`，比较简单，需要说明的东西我都写在注释了：
 
@@ -59,7 +59,7 @@ open class ContextWrapper(base: Context?) : ContextWrapper(base) {
 }
 ```
 
-# 准备好切换工具
+## 准备好切换工具
 
 我这里准备了一个语言的工具类可以参考一下：
 
@@ -115,7 +115,7 @@ object LanguageUtil {
 
 这里使用了 `object` 关键字让他变成一个单例类，而且我选择的是把设置的语言信息通过 `SharedPreferences` 进行存储，这里根据你的实际情况来调整就 OK。
 
-# 使用
+## 使用
 
 在**每一个** `Activity` 或者你封装好的 `BaseActivity` 里重写这样的方法即可：
 
