@@ -157,7 +157,6 @@ hide_posts:
 aplayer:
   meting: true
   asset_inject: false
-  skip_render: [js/*]
 
 steam:
   enable: true
@@ -170,3 +169,8 @@ steam:
   proxy:
     host: 127.0.0.1
     port: 7890
+
+nofollow:
+  enable: true
+  field: site
+  exclude:

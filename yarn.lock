@@ -2381,6 +2381,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"hexo-filter-nofollow@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "hexo-filter-nofollow@npm:2.0.2"
+  checksum: 24b5c92813eada2f743588ae864f00602b9e829c5a27976e2f503fd0ba13681ba41b1e4c78a32e1e5f2736e6ead74f8e4007a4a6ae0bad74718721fd892d0d66
+  languageName: node
+  linkType: hard
+
 "hexo-front-matter@npm:^0.2.3":
   version: 0.2.3
   resolution: "hexo-front-matter@npm:0.2.3"
@@ -2682,6 +2689,7 @@ fsevents@~2.1.2:
     hexo-blog-encrypt: ^3.0.13
     hexo-cli: ^4.2.0
     hexo-deployer-git: ^2.1.0
+    hexo-filter-nofollow: ^2.0.2
     hexo-generator-archive: ^1.0.0
     hexo-generator-baidu-sitemap: ^0.1.9
     hexo-generator-category: ^1.0.0

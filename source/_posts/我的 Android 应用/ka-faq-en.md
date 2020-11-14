@@ -1,6 +1,6 @@
 ---
 title: ka_faq_en
-cover: /uploads/blog_title/kirbyassistant.png
+cover: "../../media/posts_img/kirbyassistant_index.jpg"
 categories:
   - 我的 Android 应用
 hide: true

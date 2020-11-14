@@ -1,6 +1,6 @@
 ---
 title: 开往 - Travellings
-cover: /uploads/blog_title/开往-Travellings.png
+cover: "../../media/posts_img/travellings_index.jpg"
 tags:
   - 开往
 categories:
