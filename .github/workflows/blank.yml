@@ -41,14 +41,14 @@ jobs:
           HostName github.com
           IdentityFile ~/.ssh/id_rsa
           EOT
+          git config --global user.email "hi@imyan.ren"
+          git config --global user.name "EndureBlaze"
+          ssh -T git@github.com
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
           GIT_USER: git
         run: |
-          git config --global user.email "hi@imyan.ren"
-          git config --global user.name "EndureBlaze"
-          ssh -T git@github.com
           hexo clean
           hexo generate
           gulp
