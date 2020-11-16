@@ -91,7 +91,7 @@ theme: butterfly
 deploy:
   - type: git
     repo:
-      github: git@github.com:endureblaze/endureblaze.github.io.git
+      github: git@github.com:EndureBlaze/EndureBlaze.github.io.git
       coding: git@e.coding.net:nhc/nhc.coding.me.git
     branch: master
 
