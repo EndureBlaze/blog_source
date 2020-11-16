@@ -48,12 +48,9 @@ jobs:
         run: |
           git config --global user.email "hi@imyan.ren"
           git config --global user.name "EndureBlaze"
-      - name: Check Git
-        env:
-          USE_SSH: true
-          GIT_USER: git
+      - name: cat
         run: |
-          ssh -T git@github.com
+          cat ~/.ssh/id_rsa
       - name: Check Coding
         env:
           USE_SSH: true
