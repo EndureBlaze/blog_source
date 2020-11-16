@@ -25,6 +25,7 @@ jobs:
       - name: Setup Dependencies
         run: |
           npm install hexo-cli -g
+          npm install hexo-theme-butterfly@3.3.0
           npm install gulp -g
           npm install
       - name: Add key to allow access to repository
