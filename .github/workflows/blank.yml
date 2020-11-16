@@ -46,7 +46,7 @@ jobs:
           USE_SSH: true
           GIT_USER: git
         run: |
-          git config --global user.email "nihaocun@163.com"
+          git config --global user.email "hi@imyan.ren"
           git config --global user.name "EndureBlaze"
           ssh -T git@github.com
           hexo clean
