@@ -135,7 +135,7 @@ offline:
     - urlPattern: /* # 如果你需要加载CDN资源，请配置该选项，如果没有，可以不配置。
       handler: cacheFirst
       options:
-        origin: https://blog.imyan.ren# 可替换成你的 url
+        origin: https://blog.imyan.ren #可替换成你的 url
 
 # 搜索
 search:

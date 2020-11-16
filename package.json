@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "aplayer": "^1.10.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
     "hexo": "^5.0.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-auto-category": "^0.2.0",
@@ -41,6 +43,14 @@
     "hexo-steam-games": "^1.2.0",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-wordcount": "^6.0.1",
-    "image-size": "^0.8.3"
+    "image-size": "^0.8.3",
+    "terser": "^5.3.8"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "workbox-build": "^5.1.4"
   }
 }

@@ -1,0 +1,23 @@
+.app-refresh {
+  position: fixed;
+  top: -2.2rem;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  padding: 0 1rem;
+  font-size: 15px;
+  height: 2.2rem;
+  transition: all 0.3s ease;
+}
+.app-refresh-wrap {
+  display: flex;
+  color: #fff;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.app-refresh-wrap a {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
