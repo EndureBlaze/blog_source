@@ -1,40 +1,53 @@
-
 name: Hexo Auto-Deploy
-on: [push]
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
 
 jobs:
   build:
-    name: Hexo Auto-Deploy by GitHub Actions
     runs-on: ubuntu-latest
 
     steps:
-    - name: 1. git checkout...
-      uses: actions/checkout@v1
-      
-    - name: 2. setup nodejs...
-      uses: actions/setup-node@v1
-    
-    - name: 3. install hexo...
-      run: |
-        npm install hexo-cli -g
-        npm install
-        
-    - name: 4. hexo generate public files...
-      run: |
-        hexo clean
-        hexo g  
-        gulp  
+      # check it to your workflow can access it
+      # from: https://github.com/actions/checkout
+      - name: Checkout Repository master branch
+        uses: actions/checkout@master
 
-    - name: 5. hexo deploy ...
-      run: |
-        mkdir -p ~/.ssh/
-        echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan github.com >> ~/.ssh/known_hosts
-        
-        git config --global user.name "EndureBlaze"
-        git config --global user.email "nihaocun@163.com"
-        git config --global core.quotepath false
-        
-        hexo d
+      # from: https://github.com/actions/setup-node
+      - name: Setup Node.js 12.x
+        uses: actions/setup-node@master
+        with:
+          node-version: "12.x"
 
+      - name: Setup Dependencies
+        run: |
+          npm install hexo-cli -g
+          npm install gulp -g
+          npm install
+      - name: Add key to allow access to repository
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          cat <<EOT >> ~/.ssh/config
+          Host github.com
+          HostName github.com
+          IdentityFile ~/.ssh/id_rsa
+          EOT
+      - name: Release to GitHub Pages
+        env:
+          USE_SSH: true
+          GIT_USER: git
+        run: |
+          git config --global user.email "nihaocun@163.com"
+          git config --global user.name "EndureBlaze"
+          hexo clean
+          hexo generate
+          gulp
+          hexo deploy
