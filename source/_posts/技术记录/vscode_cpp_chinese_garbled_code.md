@@ -1,10 +1,11 @@
 ---
 title: 解决 VS Code 编译 C/C++ 是输出中文乱码的问题
-cover: "../../media/posts_img/vscode_cpp_chinese_garbled_code_index.jpg"
 tags:
   - VS Code
 categories:
   - 技术记录
+cover: "../../media/posts_img/vscode_cpp_chinese_garbled_code.svg"
+description: GBK 和 UTF-8 相爱相杀。
 abbrlink: ea8a69ac
 date: 2020-04-08 16:45:23
 ---

@@ -1,13 +1,14 @@
 ---
 title: 如何优雅的使用 Material Design 2
-cover: "../../media/posts_img/how2_use_material_design2_index.jpg"
 tags:
   - Android
   - Material Design 2
   - 踩坑
-abbrlink: 9cb48aa5
 categories:
   - 编程
+cover: "../../media/posts_img/how2_use_material_design2.svg"
+description: 为什么安卓开发者文档没有迁移指南？
+abbrlink: 9cb48aa5
 date: 2019-07-31 00:38:57
 ---
 ### 简介

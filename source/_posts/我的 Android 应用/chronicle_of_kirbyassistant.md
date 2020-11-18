@@ -1,11 +1,13 @@
 ---
 title: Kirby Assistant 编年史
-cover: "../../media/posts_img/kirbyassistant_index.jpg"
+tags:
+  - 编年史
 categories:
   - 我的 Android 应用
+cover: "../../media/posts_img/kirbyassistant.svg"
+description: 虽然现在已经坑了，但是还是要介绍发展历程的。
 abbrlink: a505f9a9
 date: 2019-08-04 14:28:42
-tags:
 ---
 
 > 写在前面：

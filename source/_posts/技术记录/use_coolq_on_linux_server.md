@@ -1,11 +1,12 @@
 ---
 title: 在 Linux 服务器上使用 酷Q
-cover: "../../media/posts_img/use_coolq_on_linux_server_index.jpg"
 tags:
   - 酷Q
   - linux
 categories:
   - 技术记录
+cover: "../../media/posts_img/use_coolq_on_linux_server_index.jpg"
+description: 一个简简单单的 docker 网上居然有这么多不同的用法？
 abbrlink: 2bdd4eaf
 date: 2019-11-17 20:08:29
 ---

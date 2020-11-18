@@ -1,6 +1,6 @@
 ---
 title: 解决方案.方案
-cover: "../../media/posts_img/notes.jpg"
+cover: "../../media/posts_img/notes.svg"
 categories:
   - 技术记录
 abbrlink: notes

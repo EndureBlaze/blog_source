@@ -1,6 +1,5 @@
 ---
 title: 动态替换 ViewPager 里面的 Fragment
-cover: "../../media/posts_img/android_dev_index.jpg"
 tags:
   - Android
   - 踩坑
@@ -8,6 +7,8 @@ tags:
   - Fragment
 categories:
   - 编程
+cover: "../../media/posts_img/android_dev.svg"
+description: 暴力替换不可取哦~
 abbrlink: 6b0c894
 date: 2019-08-17 13:40:28
 ---

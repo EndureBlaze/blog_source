@@ -1,11 +1,12 @@
 ---
 title: Kirby Assistant 1.x.x更新日志
-cover: "../../media/posts_img/kirbyassistant_index.jpg"
 tags:
   - Kirby Assistant
   - 更新日志
 categories:
   - 我的 Android 应用
+cover: "../../media/posts_img/kirbyassistant.jpg"
+description: 如题所示这是个更新日志。
 abbrlink: 12e7f5da
 date: 2019-07-30 16:44:24
 ---

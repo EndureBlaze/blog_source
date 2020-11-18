@@ -1,13 +1,14 @@
 ---
 title: 在线游玩 FC（小霸王、红白机）、街机游戏
-cover: "../../media/posts_img/online_play_nes_index.jpg"
-categories:
-  - 随手记
-abbrlink: 743f9c80
-date: 2020-02-22 22:34:54
 tags:
   - 游戏推荐
   - FC
+categories:
+  - 随手记
+cover: "../../media/posts_img/online_play_nes.jpg"
+description: 火速上线来打游戏！
+abbrlink: 743f9c80
+date: 2020-02-22 22:34:54
 ---
 
 ![网站标题界面](../../media/article_img/online_play_nes/网站标题界面.png)

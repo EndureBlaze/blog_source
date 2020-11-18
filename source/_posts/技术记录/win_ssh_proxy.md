@@ -1,14 +1,15 @@
 ---
 title: 在 Windows 系统上给 ssh 设置代理
-cover: "../../media/posts_img/ssh_index.jpg"
-categories:
-  - 技术记录
-abbrlink: 4d70a82d
-date: 2020-06-01 23:28:25
 tags:
   - ssh
   - Windows
   - 代理
+categories:
+  - 技术记录
+cover: "../../media/posts_img/ssh.svg"
+description: 没有代理可怎么愉快的<del>抄</del>借鉴代码
+abbrlink: 4d70a82d
+date: 2020-06-01 23:28:25
 ---
 
 {% note info %}

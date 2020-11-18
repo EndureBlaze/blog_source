@@ -1,12 +1,12 @@
 ---
 title: 不一样又怎样
-cover: "../../media/posts_img/lgbt_bu_yi_yang_you_zen_yang.jpg"
 tags:
   - LGBT
-description: 每一个不一样的人，背后都有一个爱他的人
-abbrlink: 7935321c
 categories:
   - 正经文字
+cover: "../../media/posts_img/lgbt_bu_yi_yang_you_zen_yang.svg"
+description: 每一个不一样的人，背后都有一个爱他的人
+abbrlink: 7935321c
 date: 2020-03-01 12:58:56
 ---
 

@@ -1,15 +1,16 @@
 ---
 title: updateConfiguration 弃用之后更换语言应该何去何从
-cover: "../../media/posts_img/android_dev_index.jpg"
-categories:
-  - 编程
-abbrlink: 9e078f24
-date: 2020-05-09 23:03:24
 tags:
   - Android
   - 踩坑
   - Kotlin
   - 弃用
+categories:
+  - 编程
+cover: "../../media/posts_img/android_dev.svg"
+description: 为什么 Google 总是会弃用好用的 API？
+abbrlink: 9e078f24
+date: 2020-05-09 23:03:24
 ---
 
 {% note info %}

@@ -1,12 +1,13 @@
 ---
 title: 我为什么要搭建博客
-cover: "../../media/posts_img/why_build_blog_index.jpg"
 tags:
   - 为什么
   - 看法
-abbrlink: a6366ad5
 categories:
   - 正经文字
+cover: "../../media/posts_img/why_build_blog.svg"
+description: 即使最后没有人为你鼓掌，也要优雅地谢幕，感谢自己的认真付出。
+abbrlink: a6366ad5
 date: 2019-08-02 17:32:33
 ---
 

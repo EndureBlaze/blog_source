@@ -1,10 +1,11 @@
 ---
 title: 偶然间在B站看到的鬼畜
-cover: "../../media/posts_img/dank_video_in_bilibili_index.jpg"
 tags:
   - 视频
 categories:
   - 碎碎念
+cover: "../../media/posts_img/dank_video_in_bilibili.svg"
+description: 过去的就过去吧。
 abbrlink: d46d4e39
 date: 2019-08-02 00:29:52
 ---

@@ -1,10 +1,11 @@
 ---
 title: 开往 - Travellings
-cover: "../../media/posts_img/travellings_index.jpg"
 tags:
   - 开往
 categories:
   - 正经文字
+cover: "../../media/posts_img/travellings.svg"
+description: 再看？再看就把你开走。
 abbrlink: 58ae8d54
 date: 2020-04-22 11:14:28
 ---

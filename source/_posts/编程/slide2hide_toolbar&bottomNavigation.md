@@ -1,12 +1,13 @@
 ---
 title: 实现滑动隐藏 ToolBar 与 BottomNavigation
-cover: "../../media/posts_img/android_dev_index.jpg"
 tags:
   - Android
   - 踩坑
   - Material Design 2
 categories:
   - 编程
+cover: "../../media/posts_img/android_dev.svg"
+description: 进来给你看好康的效果。
 abbrlink: 919199f6
 date: 2019-08-09 23:23:00
 ---

@@ -1,13 +1,14 @@
 ---
 title: 为什么说宣扬读书无用论的人要么蠢要么坏？
-cover: "../../media/posts_img/red_more_book_index.jpg"
 tags:
   - 读书
   - 学习
   - 读书无用论
-abbrlink: e9558acf
 categories:
   - 正经文字
+cover: "../../media/posts_img/red_more_book.svg"
+description: 可以不读，不要害人！
+abbrlink: e9558acf
 date: 2020-03-03 23:23:29
 ---
 

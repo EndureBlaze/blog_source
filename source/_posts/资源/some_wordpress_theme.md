@@ -1,6 +1,6 @@
 ---
 title: 一些 WordPress 主题
-cover: "../../media/posts_img/some_wordpress_theme_index.jpg"
+cover: "../../media/posts_img/some_wordpress_theme.svg"
 tags:
   - WordPress
 categories:

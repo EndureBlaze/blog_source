@@ -1,11 +1,12 @@
 ---
 title: 记一些 Hexo 报错
-cover: "../../media/posts_img/hexo_error_index.jpg"
 tags:
   - Hexo
   - 踩坑
 categories:
   - 技术记录
+cover: "../../media/posts_img/hexo_error.svg"
+description: 是的这里只有一个错误
 abbrlink: b36c6159
 date: 2019-08-02 18:05:48
 ---

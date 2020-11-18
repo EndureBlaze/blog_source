@@ -51,20 +51,30 @@ comments: false
 
 这是我写的一些项目
 
-| 项目名称                    |                                                链接                                                 | 简介                                           |
-| :-------------------------- | :-------------------------------------------------------------------------------------------------: | :--------------------------------------------- |
-| **Kirby Assistant**         | [官网](https://kirby.imyan.ren/) [酷安](https://www.coolapk.com/game/cn.endureblaze.kirby) [GitHub](https://github.com/EndureBlaze/Kirby-Assistant)  | 一个方便在安卓手机上玩星之卡比的工具           |
-| **GlideCache**              |                         [GitHub](https://github.com/EndureBlaze/GlideCache)                         | 一个可以方便快捷操作 Glide 本地缓存的开源库    |
-| **ExecuteShell**            |                        [GitHub](https://github.com/EndureBlaze/ExecuteShell)                        | 一个可以方便的执行 Shell 命令的 Android 开源库 |
-| **快否激活器**              | [酷安](https://www.coolapk.com/apk/237389) [GitHub](https://github.com/EndureBlaze/ActivateBenchaf) | 一个第三方的快否激活器                         |
-| **记时光** (合作项目)       |                     [酷安](https://www.coolapk.com/apk/com.ifreedomer.timenote)                     | 这是一个小巧的日记 App 帮你记录美好的每一天    |
-| **安卓壁纸精选** (合作项目) |                  [酷安](https://www.coolapk.com/apk/com.ifreedomer.lovewallpaper)                   | 安卓壁纸精选，精挑洗选只为你                   |
+| 项目名称                    |                       链接                       | 简介                                           |
+| :-------------------------- | :----------------------------------------------: | :--------------------------------------------- |
+| **Kirby Assistant**         | [官网][ka官网] [酷安][ka酷安] [GitHub][kagithub] | 一个方便在安卓手机上玩星之卡比的工具           |
+| **GlideCache**              |               [GitHub][glidecache]               | 一个可以方便快捷操作 Glide 本地缓存的开源库    |
+| **ExecuteShell**            |              [GitHub][executeshell]              | 一个可以方便的执行 Shell 命令的 Android 开源库 |
+| **快否激活器**              |      [酷安][快否酷安] [GitHub][快否github]       | 一个第三方的快否激活器                         |
+| **记时光** (合作项目)       |                  [酷安][记时光]                  | 这是一个小巧的日记 App 帮你记录美好的每一天    |
+| **安卓壁纸精选** (合作项目) |                   [酷安][壁纸]                   | 安卓壁纸精选，精挑洗选只为你                   |
 
 ---
 
+[ka官网]: https://kirby.imyan.ren/
+[ka酷安]: https://www.coolapk.com/game/cn.endureblaze.kirby
+[kagithub]: https://github.com/EndureBlaze/Kirby-Assistant
+[glidecache]: https://github.com/EndureBlaze/GlideCache
+[executeshell]: https://github.com/EndureBlaze/ExecuteShell
+[快否酷安]: https://www.coolapk.com/apk/237389
+[快否github]: https://github.com/EndureBlaze/ActivateBenchaf
+[记时光]: https://www.coolapk.com/apk/com.ifreedomer.timenote
+[壁纸]: https://www.coolapk.com/apk/com.ifreedomer.lovewallpaper
+
 ## 来玩游戏啊
 
-- steam：endureblaze
+- steam：[endureblaze](https://steamcommunity.com/id/endureblaze/)
 - 守望先锋：汝南京#5207
 - osu!：[endureblaze](https://osu.ppy.sh/users/14037205)
 - [看看我的 steam 库](/steamgames)
@@ -89,3 +99,4 @@ comments: false
   - 自动分类：[hexo-auto-category](https://github.com/xu-song/hexo-auto-category)
   - 字数统计：[hexo-wordcount](https://github.com/willin/hexo-wordcount)
   - 评论：[Valine](https://github.com/xCss/Valine)
+  - 脚注：[hexo-footnotes](https://github.com/LouisBarranqueiro/hexo-footnotes)

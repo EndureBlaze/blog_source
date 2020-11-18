@@ -1,6 +1,6 @@
 ---
 title: Windows 软件推荐
-cover: "../../media/posts_img/windows_app_recommend_index.jpg"
+cover: "../../media/posts_img/windows_app_recommend.svg"
 tags:
   - Windows
   - 软件推荐

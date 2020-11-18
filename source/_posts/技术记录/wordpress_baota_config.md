@@ -1,12 +1,13 @@
 ---
 title: 记一次 WordPress 搭建与宝塔面板配置
-cover: "../../media/posts_img/wordpress_baota_config_index.jpg"
 tags:
   - 网站搭建
   - WordPress
   - 宝塔面板
 categories:
   - 技术记录
+cover: "../../media/posts_img/wordpress_baota_config.svg"
+description: 我是用 Hexo 发布这个文章，算不算一种 NTR 呢？
 abbrlink: 75f0fab2
 date: 2019-08-01 16:01:26
 ---

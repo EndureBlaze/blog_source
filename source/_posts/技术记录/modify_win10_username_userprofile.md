@@ -1,12 +1,13 @@
 ---
 title: 修改 Windows 10 的用户名以及用户文件夹
-cover: "../../media/posts_img/modify_win10_username_userprofile_index.jpg"
-categories:
-  - 技术记录
-abbrlink: 8e165a5c
-date: 2020-09-15 22:54:01
 tags:
   - Windows
+categories:
+  - 技术记录
+cover: "../../media/posts_img/modify_win10_username_userprofile.svg"
+description: 一个咖喱味的特性。
+abbrlink: 8e165a5c
+date: 2020-09-15 22:54:01
 ---
 
 {% note warning %}

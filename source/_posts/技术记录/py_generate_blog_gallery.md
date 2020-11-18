@@ -1,10 +1,11 @@
 ---
 title: 半自动化生成博客相册
-cover: "../../media/posts_img/py_generate_blog_gallery_index.jpg"
 tags:
   - Python
 categories:
   - 技术记录
+cover: "../../media/posts_img/py_generate_blog_gallery.svg"
+description: 懒是进步的唯一动力！
 abbrlink: 64b2bc9e
 date: 2020-02-18 13:10:33
 ---

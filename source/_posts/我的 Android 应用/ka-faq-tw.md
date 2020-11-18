@@ -1,6 +1,6 @@
 ---
 title: ka_faq_tw
-cover: "../../media/posts_img/kirbyassistant_index.jpg"
+cover: "../../media/posts_img/kirbyassistant.jpg"
 categories:
   - 我的 Android 应用
 hide: true

@@ -1,13 +1,14 @@
 ---
 title: 怎么呼吸
-cover: "../../media/posts_img/how2_breathe.jpg"
 categories:
   - 正经文字
-abbrlink: b0821049
-date: 2020-07-03 11:34:13
 tags:
   - 环保
   - 塑料产品
+cover: "../../media/posts_img/how2_breathe.svg"
+description: 吸气~呼气~感受你的环保意识。
+abbrlink: b0821049
+date: 2020-07-03 11:34:13
 ---
 
 不能呼吸的时候

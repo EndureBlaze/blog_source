@@ -1,7 +1,5 @@
 ---
 title: 如何使用 Dolphin Emulator 玩《星之卡比：Wii》
-cover: "../../media/posts_img/how2_use_dolphin_play_kirbywii_index.jpg"
-abbrlink: 2fbba4ed
 tags:
   - 星之卡比
   - 星之卡比 Wii
@@ -9,6 +7,9 @@ tags:
   - Dolphin Emulator
 categories:
   - 星之卡比系列教程
+cover: "../../media/posts_img/how2_use_dolphin_play_kirbywii.svg"
+description: 哪个男孩不想来玩星之卡比呢？
+abbrlink: 2fbba4ed
 date: 2020-03-07 10:57:07
 ---
 

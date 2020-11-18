@@ -1,6 +1,5 @@
 ---
 title: 使用 Kotlin 编写一个懒加载与 ViewBinding 的 Fragment
-cover: "../../media/posts_img/android_kotlin_dev_index.jpg"
 tags:
   - Android
   - 踩坑
@@ -9,6 +8,8 @@ tags:
   - Kotlin
 categories:
   - 编程
+cover: "../../media/posts_img/android_kotlin_dev.svg"
+description: 用一个语法糖糅合怪去糅合一堆特性。
 abbrlink: 51f7c2cb
 date: 2020-04-26 23:14:44
 ---

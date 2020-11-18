@@ -4536,6 +4536,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"hexo-footnotes@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "hexo-footnotes@npm:1.0.2"
+  dependencies:
+    markdown-it: ^7.0.0
+  checksum: ab3aefaa0b3e3f3a4d2b62799820f76efad18bfc180e6fa9797f2d97d3df28ca1db48778eb0f89c32abfbdd9182af3cf0ca99fd8a2ea64db0012f05201f1955e
+  languageName: node
+  linkType: hard
+
 "hexo-front-matter@npm:^0.2.3":
   version: 0.2.3
   resolution: "hexo-front-matter@npm:0.2.3"
@@ -4844,6 +4853,7 @@ fsevents@~2.1.2:
     hexo-cli: ^4.2.0
     hexo-deployer-git: ^2.1.0
     hexo-filter-nofollow: ^2.0.2
+    hexo-footnotes: ^1.0.2
     hexo-generator-archive: ^1.0.0
     hexo-generator-baidu-sitemap: ^0.1.9
     hexo-generator-category: ^1.0.0
@@ -5983,6 +5993,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"linkify-it@npm:^2.0.0":
+  version: 2.2.0
+  resolution: "linkify-it@npm:2.2.0"
+  dependencies:
+    uc.micro: ^1.0.1
+  checksum: 7905b34078d1fd85d4310c5c5381164cbdf781835e0cb5ac73d13ff14d0c87347e02655bdff5cec63631949a3b586c5f8e1e81ee0ce62ae799df58178748eb3e
+  languageName: node
+  linkType: hard
+
 "load-json-file@npm:^1.0.0":
   version: 1.1.0
   resolution: "load-json-file@npm:1.1.0"
@@ -6229,6 +6248,21 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"markdown-it@npm:^7.0.0":
+  version: 7.0.1
+  resolution: "markdown-it@npm:7.0.1"
+  dependencies:
+    argparse: ^1.0.7
+    entities: ~1.1.1
+    linkify-it: ^2.0.0
+    mdurl: ^1.0.1
+    uc.micro: ^1.0.1
+  bin:
+    markdown-it: bin/markdown-it.js
+  checksum: 832fb95e62a18883f34839f3516c7bee53d29af384c8ddf087900d0943e04cf21d9eb8a68aacb1825e97a8dabc370c9a65bd2dcbfc24cc691c656d92698d3e72
+  languageName: node
+  linkType: hard
+
 "markdown@npm:~0.5.0":
   version: 0.5.0
   resolution: "markdown@npm:0.5.0"
@@ -6265,6 +6299,13 @@ fsevents@~2.1.2:
   version: 1.0.4
   resolution: "math-random@npm:1.0.4"
   checksum: 84d091e9b24325802d78cae20e7ba249fec8dd21b158f93c36c636a188bee8ae5866cf0743b7f5c2429663735f8ac41bc60fc8b9a1c7f71f79f791d24c7eb893
+  languageName: node
+  linkType: hard
+
+"mdurl@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "mdurl@npm:1.0.1"
+  checksum: ed5e81efed218ca1cb61bbb5c41857c98ce456382d630a2f45a1b050087a10119a24107ca1acd4ccef2f1a17b02b8d61fb3c630d3d7c0f22df906dbdd2e5f7b5
   languageName: node
   linkType: hard
 
@@ -9041,6 +9082,13 @@ fsevents@~2.1.2:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: c9ef0176aaf32593514c31e5c6edc1db970847aff6e1f0a0570a6ac0cc996335792f394c2fcec59cc76691d22a01888ea073a2f3c6930cfcf7c519addf4e2ad7
+  languageName: node
+  linkType: hard
+
+"uc.micro@npm:^1.0.1":
+  version: 1.0.6
+  resolution: "uc.micro@npm:1.0.6"
+  checksum: 9dfe5ad0a08059c3eb6ded70b7cfb6fdcb5908b385af9d4717cee7f140571f5c2bb89405093ace07cfd0e283f409495d2feafd321b4b703c1fa3014e129dab27
   languageName: node
   linkType: hard
 
