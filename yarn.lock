@@ -3236,6 +3236,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eastasianwidth@npm:~0.2.0":
+  version: 0.2.0
+  resolution: "eastasianwidth@npm:0.2.0"
+  checksum: 436391b865bec7cfdea39615241f36773dcf7fb804e1abd623d57c549d54ee1cb3bea0b1e9c1ae588722d6f9e14cff0de8af343fa650d69402657f09f0531c4a
+  languageName: node
+  linkType: hard
+
 "ecc-jsbn@npm:~0.1.1":
   version: 0.1.2
   resolution: "ecc-jsbn@npm:0.1.2"
@@ -3308,7 +3315,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:^2.0.0":
+"entities@npm:^2.0.0, entities@npm:~2.0.0":
   version: 2.0.3
   resolution: "entities@npm:2.0.3"
   checksum: 02dfe1fbf531dd667420ff4e963ddc049203471ba8ad2873655303aff4cf65f27823effb397521af4d58b5609d33fc0492b0cc073c8374f3bbe6d3b5bcec1a42
@@ -4536,15 +4543,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"hexo-footnotes@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "hexo-footnotes@npm:1.0.2"
-  dependencies:
-    markdown-it: ^7.0.0
-  checksum: ab3aefaa0b3e3f3a4d2b62799820f76efad18bfc180e6fa9797f2d97d3df28ca1db48778eb0f89c32abfbdd9182af3cf0ca99fd8a2ea64db0012f05201f1955e
-  languageName: node
-  linkType: hard
-
 "hexo-front-matter@npm:^0.2.3":
   version: 0.2.3
   resolution: "hexo-front-matter@npm:0.2.3"
@@ -4780,6 +4778,16 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"hexo-reference@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "hexo-reference@npm:1.0.4"
+  dependencies:
+    hexo-util: ^0.6.3
+    markdown-it: ^8.4.2
+  checksum: a385fd3309209bafcf1d61e97cf65594e824d2f85598d4e1452c5e41aa0b9c5e74eb1fa397e289a02bf7d4659393c4995237593150801a0ebae4cb9059adca77
+  languageName: node
+  linkType: hard
+
 "hexo-renderer-ejs@npm:^1.0.0":
   version: 1.0.0
   resolution: "hexo-renderer-ejs@npm:1.0.0"
@@ -4789,13 +4797,23 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"hexo-renderer-marked@npm:^3.0.0":
-  version: 3.3.0
-  resolution: "hexo-renderer-marked@npm:3.3.0"
+"hexo-renderer-markdown-it@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "hexo-renderer-markdown-it@npm:5.0.0"
   dependencies:
     hexo-util: ^2.1.0
-    marked: ^1.0.0
-  checksum: 97f610ba4583e46dffa96c6c3f919551f9aac9dbb3a615008c1b212100822a2bc5d600c1819adbf547065de09cd4e7de8d2ee768bb3933f70369df5dc413628f
+    markdown-it: ^11.0.0
+    markdown-it-abbr: ^1.0.4
+    markdown-it-cjk-breaks: ^1.1.2
+    markdown-it-container: ^3.0.0
+    markdown-it-deflist: ^2.0.3
+    markdown-it-emoji: ^1.4.0
+    markdown-it-footnote: ^3.0.1
+    markdown-it-ins: ^3.0.0
+    markdown-it-mark: ^3.0.0
+    markdown-it-sub: ^1.0.0
+    markdown-it-sup: ^1.0.0
+  checksum: a76e65c8fcee61eaa8e2c140a08c36abcb1bf02b28660ba842a20137da009ec2db409e2fdcf84fb2211bc9ba16b1e8a5eddfd1953c614964b007f0bf2a311a09
   languageName: node
   linkType: hard
 
@@ -4853,7 +4871,6 @@ fsevents@~2.1.2:
     hexo-cli: ^4.2.0
     hexo-deployer-git: ^2.1.0
     hexo-filter-nofollow: ^2.0.2
-    hexo-footnotes: ^1.0.2
     hexo-generator-archive: ^1.0.0
     hexo-generator-baidu-sitemap: ^0.1.9
     hexo-generator-category: ^1.0.0
@@ -4866,8 +4883,9 @@ fsevents@~2.1.2:
     hexo-hide-posts: ^0.1.1
     hexo-log: ^2.0.0
     hexo-offline: ^1.0.0
+    hexo-reference: ^1.0.4
     hexo-renderer-ejs: ^1.0.0
-    hexo-renderer-marked: ^3.0.0
+    hexo-renderer-markdown-it: ^5.0.0
     hexo-renderer-pug: ^1.0.0
     hexo-renderer-stylus: ^1.1.0
     hexo-server: ^2.0.0
@@ -6002,6 +6020,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"linkify-it@npm:^3.0.1":
+  version: 3.0.2
+  resolution: "linkify-it@npm:3.0.2"
+  dependencies:
+    uc.micro: ^1.0.1
+  checksum: bbc23f16d52d25b374971c681af1e3bb20af7ef59c243b4329c6bff5f06780784553150d4c14a16d45c9fecfc1478a7a6b79502b2c6b81d2e817f0da259046b2
+  languageName: node
+  linkType: hard
+
 "load-json-file@npm:^1.0.0":
   version: 1.1.0
   resolution: "load-json-file@npm:1.1.0"
@@ -6248,18 +6275,105 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:^7.0.0":
-  version: 7.0.1
-  resolution: "markdown-it@npm:7.0.1"
+"markdown-it-abbr@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "markdown-it-abbr@npm:1.0.4"
+  checksum: d7afdacdd057e98caa8752ef9a1b52533f5058f2d6d11c1e70f353bd18cda3f00189796b756885c377e59c7500735ddc5462ce12b3ad082a74b9ce14caae4f10
+  languageName: node
+  linkType: hard
+
+"markdown-it-cjk-breaks@npm:^1.1.2":
+  version: 1.1.3
+  resolution: "markdown-it-cjk-breaks@npm:1.1.3"
+  dependencies:
+    eastasianwidth: ~0.2.0
+  checksum: 19a146108710c910d2cd53b3019645d398291b1b4bdc05ee29e7fb8b05025344d59491a17849705ebf75cb5e1fb1e1f704a1f01acb749c0d0eab6f438313f146
+  languageName: node
+  linkType: hard
+
+"markdown-it-container@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "markdown-it-container@npm:3.0.0"
+  checksum: 7d011d1151770a80a8eb15436556fbf5b7f0579ec81a57675fa93dbde4ff3958ea87b2048f688d3e1179dfe3dcb03e80891da5f6c28fb056980d8fc7bd5bdc43
+  languageName: node
+  linkType: hard
+
+"markdown-it-deflist@npm:^2.0.3":
+  version: 2.1.0
+  resolution: "markdown-it-deflist@npm:2.1.0"
+  checksum: 0edb85fc2eeb903345548c18204df470a59e47d82e11966738919de89c35e92a6f686d7886a9ce2a2749e3d2ba65d0ca76842148f1c686934cf62bf4ff0fae75
+  languageName: node
+  linkType: hard
+
+"markdown-it-emoji@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "markdown-it-emoji@npm:1.4.0"
+  checksum: 13d5c652709f804cce29c8ba51150f7343e93ae352500ac1ad4a3503ff8e52172964d9a99fe4b07b989ed3ed01959c0518f65998b788fd5dc85a20cea3379aaf
+  languageName: node
+  linkType: hard
+
+"markdown-it-footnote@npm:^3.0.1":
+  version: 3.0.2
+  resolution: "markdown-it-footnote@npm:3.0.2"
+  checksum: dab9173ddcf91d2ae41938afcaceee4cbf5c886505eb0389df0cb624e8beb387f8660c537cefee069f94780c097d390ec0f183ad1ed36d07e2d0b9dce68afd7f
+  languageName: node
+  linkType: hard
+
+"markdown-it-ins@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "markdown-it-ins@npm:3.0.0"
+  checksum: bd0cd995465b3435c62861cfbcf8033f59a2cf13f49a5d1c484daa2a40e4631b23fc18343bbf4ddead39540f15bec41a36092fbffdcdbde8bc817054367458ec
+  languageName: node
+  linkType: hard
+
+"markdown-it-mark@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "markdown-it-mark@npm:3.0.0"
+  checksum: 7ee5ba5ff58632b0f211851547df400d5600e15b320351db1a552c2d32d1cb619202cb8e252fcb1ddc8ce8ca60eca2be34667e7af0d7000c307ed6c71924fbf2
+  languageName: node
+  linkType: hard
+
+"markdown-it-sub@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "markdown-it-sub@npm:1.0.0"
+  checksum: 27777aaf90fd8333c03b6c23724bd31acb0e4c0198436fb24c2e4a47d2aa7cace2db40c53885bff6a57def9d08ed9b5d531ca31512d093549cca2a9b82411b10
+  languageName: node
+  linkType: hard
+
+"markdown-it-sup@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "markdown-it-sup@npm:1.0.0"
+  checksum: 0ef4c921d71edfe9f1101693149af789324738798cfe367dbaa377c58a6e2d9249e677a0ab10335b3b78ba953c3a0d70fa29417973aada8a2d9c90933aacc4d6
+  languageName: node
+  linkType: hard
+
+"markdown-it@npm:^11.0.0":
+  version: 11.0.1
+  resolution: "markdown-it@npm:11.0.1"
+  dependencies:
+    argparse: ^1.0.7
+    entities: ~2.0.0
+    linkify-it: ^3.0.1
+    mdurl: ^1.0.1
+    uc.micro: ^1.0.5
+  bin:
+    markdown-it: bin/markdown-it.js
+  checksum: bba35081a0efb4651a197db73f29f0b6de86cc5db7c3a9f6258bc0372fac363db6078d85e3a154371f1ffc5b2a00e5eec1697b6c7912b5851635889cf9c80c26
+  languageName: node
+  linkType: hard
+
+"markdown-it@npm:^8.4.2":
+  version: 8.4.2
+  resolution: "markdown-it@npm:8.4.2"
   dependencies:
     argparse: ^1.0.7
     entities: ~1.1.1
     linkify-it: ^2.0.0
     mdurl: ^1.0.1
-    uc.micro: ^1.0.1
+    uc.micro: ^1.0.5
   bin:
     markdown-it: bin/markdown-it.js
-  checksum: 832fb95e62a18883f34839f3516c7bee53d29af384c8ddf087900d0943e04cf21d9eb8a68aacb1825e97a8dabc370c9a65bd2dcbfc24cc691c656d92698d3e72
+  checksum: b07c928536d55f49e80dbca8e6d0145f05e1156eee25018bccd81ecf3435afbd84bfef5a569d5cf63bf6e5fd8a38c08ea7bbc6afe4a95cba84788bbacd698cfd
   languageName: node
   linkType: hard
 
@@ -6271,15 +6385,6 @@ fsevents@~2.1.2:
   bin:
     md2html: ./bin/md2html.js
   checksum: cd6a6a224863be88a19862dfb1b20366131581d62123652715b32212d11c9c121cd5067275d59d4b49abb208a19cd0ab3819ae047028a31d9fb8addae798847e
-  languageName: node
-  linkType: hard
-
-"marked@npm:^1.0.0":
-  version: 1.2.0
-  resolution: "marked@npm:1.2.0"
-  bin:
-    marked: bin/marked
-  checksum: 8726f56a03ba7c782f1a3616f5f7a213bd762828bfdb919b33abaed901f2df6a549aef9ee20a8886fef1e6b6ab5cf80f85ede4391939141086c81fd0e65ea4fc
   languageName: node
   linkType: hard
 
@@ -9085,7 +9190,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"uc.micro@npm:^1.0.1":
+"uc.micro@npm:^1.0.1, uc.micro@npm:^1.0.5":
   version: 1.0.6
   resolution: "uc.micro@npm:1.0.6"
   checksum: 9dfe5ad0a08059c3eb6ded70b7cfb6fdcb5908b385af9d4717cee7f140571f5c2bb89405093ace07cfd0e283f409495d2feafd321b4b703c1fa3014e129dab27

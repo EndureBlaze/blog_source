@@ -99,4 +99,5 @@ comments: false
   - 自动分类：[hexo-auto-category](https://github.com/xu-song/hexo-auto-category)
   - 字数统计：[hexo-wordcount](https://github.com/willin/hexo-wordcount)
   - 评论：[Valine](https://github.com/xCss/Valine)
-  - 脚注：[hexo-footnotes](https://github.com/LouisBarranqueiro/hexo-footnotes)
+  - 脚注：[hexo-reference](https://github.com/kchen0x/hexo-reference)
+  - 渲染器：[hexo-renderer-markdown-it](https://github.com/hexojs/hexo-renderer-markdown-it)
