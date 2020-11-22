@@ -43,7 +43,7 @@ comments: false
 
 网易云音乐 [@汝南京](https://music.163.com/#/user/home?id=323833067)
 
-<div class="aplayer" data-id="3111066489" data-server="netease" data-type="playlist" data-autoplay="false" "data-mode:circulation"></div>
+<div class="aplayer" data-id="3111066489" data-server="netease" data-type="playlist" data-autoplay="false" data-mode="circulation"></div>
 
 ---
 

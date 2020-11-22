@@ -649,7 +649,7 @@ aside:
       link: https://github.com/EndureBlaze
   card_announcement:
     enable: true
-    content: <div style="text-align:center;">💃Be my guest!👋~<br/>去看看我的<a href="https://imyan.ren">主页<a/><div/>
+    content: 💃Be my guest!👋~<br/>去看看我的 <a href="https://imyan.ren">主页<a/>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -858,6 +858,7 @@ inject:
     - <link rel="stylesheet" href="/css/heimu.css">
     - <link rel="manifest" href="/manifest.json">
     - <link rel="stylesheet" href="/css/app-refresh.css">
+    - <link rel="stylesheet" href="/css/hint.min.css">
   bottom:
     # - <script src="xxxx"></script>
     # - <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>

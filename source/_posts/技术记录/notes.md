@@ -11,9 +11,8 @@ tags:
 
 > 日常解决问题基本靠 Google，拿来水博客跟 *Copy&Paste* 也没啥区别，但是又想把这些方法记录下来，万一以后需要用还方便查看，于是打算全部写在这一篇文章里了。
 >
-> 当然，为了防止未来的我忘记当时写的是什么东西，咱尽量将一些因人而异、因机而异的东西标注出来（比如每段的 Replacement），但难免有疏漏，如果有读者能够看到，并感到疑惑，请不要吝啬你的留言。
+> 当然，为了防止未来的我忘记当时写的是什么东西，咱尽量将一些因人而异、因机而异的东西标注出来（比如每段的 Replacement），但难免有疏漏，如果有读者能够看到，并感到疑惑，请不要吝啬你的留言。[^1]
 >  
-> *引用自 [Buta Sticky Notes - 丁丁の店](https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/)*
 
 {% note info %}
 因为我是用的是 Windows 10 系统所以一下的东西只保证在 Windows 10 有用其他系统，诸如 Windows 7/Linux/macOS 请自行查找方案
@@ -115,3 +114,25 @@ ie4uinit -show
 cd %JAVA_HOME%
 bin\jlink.exe --module-path jmods --add-modules java.desktop --output jre
 ```
+
+## 使用 hexo-reference 插件生成脚注编号重复
+
+1. 找到 `\<blog_root_folder>\node_modules\hexo-reference\src\footnotes.js`
+
+2. 删除或者注释这几行代码
+
+```JavaScript
+    // render footnotes (HTML)
+    footnotes.forEach(function (footNote) {
+        html += '<li id="fn:' + footNote.index + '">';
+      ->// html += '<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">';
+      ->// html += footNote.index;
+      ->// html += '.</span>';
+        html += '<span style="display: inline-block; vertical-align: top; margin-left: 10px;">';
+        html += md.renderInline(footNote.content.trim());
+        html += '<a href="#fnref:' + footNote.index + '" rev="footnote"> ↩</a></span></li>';
+    });
+
+```
+
+[^1]: 引用自 [Buta Sticky Notes - 丁丁の店](https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/)
