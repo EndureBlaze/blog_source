@@ -4678,6 +4678,7 @@ fsevents@~2.1.2:
     hexo-tag-aplayer: ^3.0.4
     hexo-wordcount: ^6.0.1
     image-size: ^0.9.3
+    markdown-it-katex: ^2.0.3
     terser: 4.8.0
     workbox-build: ^5.1.4
   languageName: unknown
@@ -5617,6 +5618,17 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"katex@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "katex@npm:0.6.0"
+  dependencies:
+    match-at: ^0.1.0
+  bin:
+    katex: cli.js
+  checksum: f51c33d2579273c38cf0f135db3da5d87ada6e340d24fcf9d9d3a4a505b246fbfd47b1c3dd4847fb1818e113d65346d9a51ea8259499da2cf39d3769c5959e9b
+  languageName: node
+  linkType: hard
+
 "kind-of@npm:^3.0.2, kind-of@npm:^3.0.3, kind-of@npm:^3.2.0":
   version: 3.2.2
   resolution: "kind-of@npm:3.2.2"
@@ -5991,6 +6003,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"markdown-it-katex@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "markdown-it-katex@npm:2.0.3"
+  dependencies:
+    katex: ^0.6.0
+  checksum: 6d8264f598306ba25f9244c9dfca6bd684f61c6799f01b51195f9d6e701bd3940aee248669d45a5f32fef79c9b3b46cf62cee7e0e4c21a9392f0a49fa38692d7
+  languageName: node
+  linkType: hard
+
 "markdown-it-mark@npm:^3.0.0":
   version: 3.0.0
   resolution: "markdown-it-mark@npm:3.0.0"
@@ -6050,6 +6071,13 @@ fsevents@~2.1.2:
   bin:
     md2html: ./bin/md2html.js
   checksum: cd6a6a224863be88a19862dfb1b20366131581d62123652715b32212d11c9c121cd5067275d59d4b49abb208a19cd0ab3819ae047028a31d9fb8addae798847e
+  languageName: node
+  linkType: hard
+
+"match-at@npm:^0.1.0":
+  version: 0.1.1
+  resolution: "match-at@npm:0.1.1"
+  checksum: b5380f195e471a96ba1e1b34c040027c5e576063c8bcc4c40295a279e847b38d68504e085b5c14bdf0853395b08c3ff03da64b8e574e970d62e5f34b954bb060
   languageName: node
   linkType: hard
 
