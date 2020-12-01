@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\nihaocun\\scoop\\apps\\python\\current\\python.exe",
+    "python.pythonPath": "C:\\Users\\nihaocun\\scoop\\shims\\python.exe",
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": true,

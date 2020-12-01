@@ -4676,6 +4676,7 @@ fsevents@~2.1.2:
     hexo-server: ^2.0.0
     hexo-steam-games: ^1.2.0
     hexo-tag-aplayer: ^3.0.4
+    hexo-theme-butterfly: ^3.3.0
     hexo-wordcount: ^6.0.1
     image-size: ^0.9.3
     markdown-it-katex: ^2.0.3
@@ -4710,6 +4711,16 @@ fsevents@~2.1.2:
     hexo-util: ^0.1.7
     meting: ^1.2.0
   checksum: 60bd75c9bf4f40e30eb2dcf03575bd5fa6a01d34db561dca58530de2cf7736b170780d72ead4c09227d5fa4775168a675f257e257164b7296f45a2576e8daf71
+  languageName: node
+  linkType: hard
+
+"hexo-theme-butterfly@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "hexo-theme-butterfly@npm:3.3.0"
+  dependencies:
+    hexo-renderer-pug: ^1.0.0
+    hexo-renderer-stylus: ^2.0.1
+  checksum: aabb497c2f221f19b0d3481c07978245d4ec25818711ce84bcaf4e1498c1ff0baa44952d4764d870e188448871243e3ae528636000b8f9c78e4d1c99906cb3da
   languageName: node
   linkType: hard
 
