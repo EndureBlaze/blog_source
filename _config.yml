@@ -92,7 +92,7 @@ deploy:
   - type: git
     repo:
       github: git@github.com:EndureBlaze/EndureBlaze.github.io.git
-      coding: git@e.coding.net:nhc/blog_page.git
+      # coding: git@e.coding.net:nhc/blog_page.git
     branch: master
 
   - type: baidu_url_submitter

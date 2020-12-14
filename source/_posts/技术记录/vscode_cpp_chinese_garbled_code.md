@@ -14,6 +14,12 @@ date: 2020-04-08 16:45:23
 
 不是这种方式不好，这种确实从根本解决了问题，但是我是实在懒，所以想了一些外门邪道。然后百度到了可以使用 `chcp 65001` 命令把控制台的编码切换到 UTF-8，当然你可以参考这篇 [百度知道](https://jingyan.baidu.com/article/f7ff0bfcee2dc22e26bb13d5.html) 或者这篇 [博文](https://www.cnblogs.com/jpfss/p/11016870.html) 把编码永久更改，但是我怕会出奇怪的问题，所以在 VS Code 的配置文件找了找，没想到还真有这种骚操作。
 
+{% note info %}
+2020-12-14 更新新方法
+{% endnote %}
+
+其实只要给 code runner 插件、手动编译时、VS Code 调试时上 `-fexec-charset=GBK` 就好了，之前那种方法简直是绕弯路，交作业的时候只需要把编码改成 GBK 就好了。唯一的缺点就是不能编译 GBK 文件，不过这不是问题。
+
 ## 偷懒的方式
 
 在 VS Code 中通过打开 `文件`-> `首选项`-> `设置`，然后编辑 VS Code 的 `setting.json` ，然后添加如下代码
