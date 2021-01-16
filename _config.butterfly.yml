@@ -866,6 +866,7 @@ inject:
     # - <script src="https://cdn.bootcss.com/dplayer/1.22.2/DPlayer.min.js"></script>
     - <div class="aplayer no-destroy aplayer-lrc-hide" data-id="3111066489" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
     - <script async  src="/js/crash_cheat.js"></script>
+    - <script async  src="/js/cursor.js"></script>
     - <script async  src="https://cdn.jsdelivr.net/gh/EndureBlaze/live2d-hao@0.1/autoload.js"></script>
     - '<div class="app-refresh" id="app-refresh"> <div class="app-refresh-wrap"> <label>✨ 网站已更新最新版本 👉</label> <a href="javascript:void(0)" onclick="location.reload()">点击刷新</a> </div></div>'
 

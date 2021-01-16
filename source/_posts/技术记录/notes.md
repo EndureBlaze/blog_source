@@ -79,7 +79,8 @@ tags:
         "-o", // 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out
         "${fileDirname}/${fileBasenameNoExtension}.exe",
         "-g", // 生成和调试有关的信息
-        "-Wall" // 开启额外警告
+        "-Wall", // 开启额外警告
+        "-fexec-charset=GBK" // 防止中文乱码，按需取用
       ], // 编译命令参数
       "type": "cppbuild", // 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令
       "options": {
