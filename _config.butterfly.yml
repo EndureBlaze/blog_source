@@ -39,6 +39,21 @@ copy:
     enable: false
     limit_count: 50
 
+# post_pagination (分页)
+# value: 1 || 2 || false
+# 1: The 'next post' will link to old post
+# 2: The 'next post' will link to new post
+# false: disable pagination
+post_pagination: 1
+
+# Post edit
+# Easily browse and edit blog source code online.
+post_edit:
+  enable: false
+  # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
+  # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
+  url:
+
 # social settings (社交圖標設置)
 # formal:
 #   icon: link || the description
@@ -95,7 +110,7 @@ favicon: /media/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /media/avatar.png
+  img: /media/avatar.jpg
   effect: false
 
 # The banner image of home page
@@ -193,6 +208,7 @@ index_post_content:
 toc:
   enable: true
   number: true
+  style_simple: tru
 
 post_copyright:
   enable: true
@@ -268,6 +284,7 @@ comments:
   # If you set it to true, the comment count will be invalid
   lazyload: false
   count: false # Display comment count in top_img
+  card_post_count: true # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -497,6 +514,9 @@ index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
 index_top_img_height:
 
+# Disable all banner image
+disable_top_img: false
+
 # The user interface setting of category and tag page (category和tag頁的UI設置)
 # index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
 # default - same as archives UI 默認跟archives頁面UI一樣
@@ -690,6 +710,7 @@ runtimeshow:
 newest_comments:
   enable: false
   limit: 6
+  storage: 10 # unit: mins, save data to localStorage
   avatar: true
   leancloud:
     enable: false
@@ -806,8 +827,6 @@ snackbar:
   bg_light: "#0651a8" # The background color of Toast Notification in light mode
   bg_dark: "#2d3035" # The background color of Toast Notification in dark mode
 
-# Baidu Push (百度推送)
-baidu_push: true
 
 # https://instant.page/
 # prefetch (預加載)
@@ -836,15 +855,9 @@ lazyload:
 #   favicon_16_16: /image/pwa/16.png
 #   mask_icon: /image/pwa/safari-pinned-tab.svg
 
-# Disable Baidu transformation on mobile devices (禁止百度轉碼)
-disable_baidu_transformation: true
-
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
 Open_Graph_meta: true
-
-# Caches the contents in a fragment, speed up the generation (開啟hexo自帶的緩存,加快生成速度)
-fragment_cache: true
 
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
