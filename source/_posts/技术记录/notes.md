@@ -20,8 +20,8 @@ tags:
 
 ## 目前可用的 VS Code 调试 C/C++ 配置
 
-> 2020-11-12 19:53 GMT +8
->基于网上现有的稍加修改
+> 2020-11-12 19:53 GMT +8  
+> 基于网上现有的稍加修改
 
 {% note info %}
 请替换 [debugger_path] 并且保证你的 gcc 是可用状态，或者使用其他的编译器/调试器
@@ -96,7 +96,7 @@ tags:
 
 ## Win10 任务栏菜单小图标变黑了
 
-> 2020-9-10 16:55 GMT+8
+> 2020-9-10 16:55 GMT+8  
 > 建议创建开机任务执行
 
 ```ps
@@ -135,5 +135,20 @@ bin\jlink.exe --module-path jmods --add-modules java.desktop --output jre
     });
 
 ```
+
+## Grub 找不到 Windows 引导了
+
+> 2021-3-19 11:12 GMT+8  
+> 我是用的是 Manjaro
+
+首先需要安装 `os-prober`，然后打开 `/etc/default/grub`，编辑或者添加以下几项
+
+```shell
+GRUB_TIMEOUT_STYLE=menu  #显示菜单
+GRUB_TIMEOUT=10   #超时时间10秒
+GRUB_DISABLE_OS_PROBER=false   #允许os探测
+```
+
+修改完成后运行 `sudo update-grub` 就可以找到 Windows 引导了。
 
 [^1]: 引用自 [Buta Sticky Notes - 丁丁の店](https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/)
